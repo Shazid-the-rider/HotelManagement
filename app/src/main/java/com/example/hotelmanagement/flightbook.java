@@ -96,7 +96,7 @@ public class flightbook extends AppCompatActivity {
                 datePicker = new DatePicker(flightbook.this);
                 Calendar calendar = Calendar.getInstance();
                 int currentYear = calendar.get(Calendar.YEAR);
-                int currentMonth = calendar.get(Calendar.MONTH);
+                int currentMonth = calendar.get(Calendar.MONTH)+1;
                 int currentDay = calendar.get(Calendar.DAY_OF_MONTH);
 
                 datePickerDialog = new DatePickerDialog(flightbook.this,
@@ -128,12 +128,11 @@ public class flightbook extends AppCompatActivity {
                     String Date = txt6.getText().toString();
                     Database db = new Database(getApplicationContext(), "Hotel", null, 1);
                     if (db.checkFlight(username, email, values, Date) == 1) {
-                        Toast.makeText(flightbook.this, "Product already added to cart", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(flightbook.this, "flight already booked", Toast.LENGTH_SHORT).show();
                     } else {
 
                         db.Add_flight(username, email, values, amount, Date, "Flight");
-                        txt6.setText(" ");
-                        Toast.makeText(flightbook.this, "Cart Added Successful and created table", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(flightbook.this, "Flight successfully booked", Toast.LENGTH_SHORT).show();
 
                     }
                 }

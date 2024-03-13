@@ -9,38 +9,14 @@
     android:paddingBottom="10dp"
     android:orientation="vertical"
     android:background="@drawable/pastry"
-    tools:context=".drinks1">
-
-
-
-  <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="horizontal">
-
-    <ImageButton
+    tools:context=".flight">
+  <ImageButton
         android:id="@+id/Imagebutton"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/baseline_arrow_back_ios_new_24"  />
-
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/searchView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:queryHint="Search"
-        android:iconifiedByDefault="false"
-        android:background="@drawable/inputbackgroundshape"
-        app:searchIcon="@drawable/baseline_search_24"
-        />
-
-  </LinearLayout>
 
   <ListView
 

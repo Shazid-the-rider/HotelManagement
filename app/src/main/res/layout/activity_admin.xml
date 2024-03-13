@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/template6"
     android:textAlignment="center"
-    tools:context=".loginpage">
+    tools:context=".admin">
 
     <TextView
         android:id="@+id/textView"

@@ -9,7 +9,7 @@
     android:paddingBottom="10dp"
     android:orientation="vertical"
     android:background="@drawable/fox"
-    tools:context=".drinks1">
+    tools:context=".lunch">
 
 
         <ImageButton
