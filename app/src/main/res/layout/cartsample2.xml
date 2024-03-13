@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@color/black">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:letterSpacing="-.03"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/tablelay"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:letterSpacing="-.03"
+            android:background="@drawable/tablelay"
+            />
+
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/textview3"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:letterSpacing="-.03"
+            android:textColor="@color/white"
+            android:background="@drawable/tablelay"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

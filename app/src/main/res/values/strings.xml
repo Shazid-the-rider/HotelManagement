@@ -1,0 +1,2699 @@
+<resources>
+    <string name="app_name">HotelManagement</string>
+    <string-array name="desert_name">
+        <item>Chocolate Cake</item>
+        <item>Vanilla Ice Cream</item>
+        <item>Apple Pie</item>
+        <item>Cheesecake</item>
+        <item>Brownies</item>
+        <item>Strawberry Shortcake</item>
+        <item>Carrot Cake</item>
+        <item>Red Velvet Cupcake</item>
+        <item>Lemon Meringue Pie</item>
+        <item>Tiramisu</item>
+        <item>Chocolate Chip Cookies</item>
+        <item>Banana Bread</item>
+        <item>Key Lime Pie</item>
+        <item>Creme Brulee</item>
+        <item>Black Forest Cake</item>
+        <item>Pecan Pie</item>
+        <item>Fruit Tart</item>
+        <item>Rice Pudding</item>
+        <item>Peanut Butter Fudge</item>
+        <item>Blueberry Muffins</item>
+        <item>Pineapple Upside-Down Cake</item>
+        <item>Coconut Macaroons</item>
+        <item>Chocolate Mousse</item>
+        <item>Raspberry Sorbet</item>
+        <item>Smores</item>
+        <item>Oreo Cheesecake</item>
+        <item>Apple Crisp</item>
+        <item>Cinnamon Rolls</item>
+        <item>Eclairs</item>
+        <item>Chocolate Fondue</item>
+        <item>Baklava</item>
+        <item>Bread Pudding</item>
+        <item>Cannoli</item>
+        <item>Mango Sorbet</item>
+        <item>Panna Cotta</item>
+        <item>Lemon Bars</item>
+        <item>Coconut Cream Pie</item>
+        <item>Cherry Cobbler</item>
+        <item>Chocolate Truffles</item>
+        <item>Gelato</item>
+        <item>Pecan Pralines</item>
+        <item>German Chocolate Cake</item>
+        <item>Pumpkin Pie</item>
+        <item>Marble Pound Cake</item>
+        <item>Strawberry Rhubarb Pie</item>
+        <item>Nutella Crepes</item>
+        <item>Blueberry Cheesecake</item>
+        <item>Fig Newtons</item>
+        <item>Mocha Brownies</item>
+        <item>Lemon Pound Cake</item>
+        <item>Raspberry Swirl Cheesecake</item>
+        <item>Almond Joy Bars</item>
+        <item>Snickerdoodle Cookies</item>
+        <item>Custard Tart</item>
+        <item>White Chocolate Raspberry Cheesecake</item>
+        <item>Apple Turnover</item>
+        <item>Chocolate Eclairs</item>
+        <item>Peach Cobbler</item>
+        <item>Cannoli</item>
+        <item>Caramel Popcorn</item>
+        <item>Neapolitan Ice Cream</item>
+        <item>Churros</item>
+        <item>Fudge Brownie Sundae</item>
+        <item>Chocolate Covered Strawberries</item>
+        <item>Caramel Apple</item>
+        <item>Mocha Latte Cake</item>
+        <item>Lemon Sorbet</item>
+        <item>Pistachio Baklava</item>
+        <item>Raspberry Chocolate Tart</item>
+        <item>Mint Chocolate Chip Ice Cream</item>
+        <item>Rum Raisin Bread Pudding</item>
+        <item>Salted Caramel Brownies</item>
+        <item>Coconut Cream Cake</item>
+        <item>Baked Alaska</item>
+        <item>Honeycomb Candy</item>
+        <item>Passion Fruit Souffle</item>
+        <item>Matcha Green Tea Cake</item>
+        <item>Butterscotch Pudding</item>
+        <item>Saffron Rice Pudding</item>
+        <item>Chocolate Hazelnut Torte</item>
+
+
+    </string-array>
+    <string-array name="cost">
+        <item>37</item>
+        <item>20</item>
+        <item>12</item>
+        <item>42</item>
+        <item>8</item>
+        <item>23</item>
+        <item>5</item>
+        <item>31</item>
+        <item>14</item>
+        <item>18</item>
+        <item>7</item>
+        <item>40</item>
+        <item>9</item>
+        <item>25</item>
+        <item>2</item>
+        <item>35</item>
+        <item>16</item>
+        <item>3</item>
+        <item>19</item>
+        <item>29</item>
+        <item>41</item>
+        <item>11</item>
+        <item>33</item>
+        <item>6</item>
+        <item>21</item>
+        <item>30</item>
+        <item>26</item>
+        <item>10</item>
+        <item>44</item>
+        <item>38</item>
+        <item>4</item>
+        <item>22</item>
+        <item>27</item>
+        <item>13</item>
+        <item>24</item>
+        <item>17</item>
+        <item>39</item>
+        <item>32</item>
+        <item>15</item>
+        <item>43</item>
+        <item>36</item>
+        <item>34</item>
+        <item>1</item>
+        <item>45</item>
+        <item>28</item>
+        <item>5</item>
+        <item>2</item>
+        <item>10</item>
+        <item>15</item>
+        <item>41</item>
+        <item>30</item>
+        <item>9</item>
+        <item>8</item>
+        <item>37</item>
+        <item>7</item>
+        <item>22</item>
+        <item>24</item>
+        <item>20</item>
+        <item>43</item>
+        <item>27</item>
+        <item>14</item>
+        <item>4</item>
+        <item>13</item>
+        <item>31</item>
+        <item>38</item>
+        <item>17</item>
+        <item>35</item>
+        <item>11</item>
+        <item>33</item>
+        <item>18</item>
+        <item>34</item>
+        <item>16</item>
+        <item>40</item>
+        <item>23</item>
+        <item>42</item>
+        <item>1</item>
+        <item>21</item>
+        <item>25</item>
+        <item>19</item>
+        <item>28</item>
+        <item>6</item>
+        <item>3</item>
+        <item>44</item>
+        <item>45</item>
+        <item>12</item>
+        <item>36</item>
+        <item>29</item>
+    </string-array>
+
+    <string-array name="drink_name">
+        <item>Cappuccino</item>
+        <item>Espresso</item>
+        <item>Latte</item>
+        <item>Mocha</item>
+        <item>Americano</item>
+        <item>Macchiato</item>
+        <item>Flat White</item>
+        <item>Irish Coffee</item>
+        <item>Frappe</item>
+        <item>Cold Brew</item>
+        <item>Matcha Latte</item>
+        <item>Chai Tea</item>
+        <item>Iced Tea</item>
+        <item>Hot Chocolate</item>
+        <item>Green Smoothie</item>
+        <item>Fruit Punch</item>
+        <item>Lemonade</item>
+        <item>Mango Lassi</item>
+        <item>Pina Colada</item>
+        <item>Strawberry Daiquiri</item>
+        <item>Mojito</item>
+        <item>Margarita</item>
+        <item>Bloody Mary</item>
+        <item>Gin and Tonic</item>
+        <item>Rum Punch</item>
+        <item>Tequila Sunrise</item>
+        <item>White Russian</item>
+        <item>Long Island Iced Tea</item>
+        <item>Sangria</item>
+        <item>Mimosa</item>
+        <item>Bellini</item>
+        <item>Blue Lagoon</item>
+        <item>Sex on the Beach</item>
+        <item>Whiskey Sour</item>
+        <item>Old Fashioned</item>
+        <item>Negroni</item>
+        <item>Manhattan</item>
+        <item>Martini</item>
+        <item>Mai Tai</item>
+        <item>Piña Colada</item>
+        <item>Tom Collins</item>
+        <item>Sazerac</item>
+        <item>Paloma</item>
+        <item>Bloody Mary</item>
+        <item>Caipirinha</item>
+        <item>White Russian</item>
+        <item>Hot Toddy</item>
+        <item>Whiskey Smash</item>
+    </string-array>
+
+    <string-array name="drink_price">
+
+        <item>4.50</item>
+        <item>3.75</item>
+        <item>5.25</item>
+        <item>4.00</item>
+        <item>3.50</item>
+        <item>4.75</item>
+        <item>5.00</item>
+        <item>6.25</item>
+        <item>4.25</item>
+        <item>5.50</item>
+        <item>6.00</item>
+        <item>3.25</item>
+        <item>2.75</item>
+        <item>4.50</item>
+        <item>5.75</item>
+        <item>3.00</item>
+        <item>2.50</item>
+        <item>4.25</item>
+        <item>6.50</item>
+        <item>7.00</item>
+        <item>8.25</item>
+        <item>7.50</item>
+        <item>6.75</item>
+        <item>5.00</item>
+        <item>6.25</item>
+        <item>7.75</item>
+        <item>8.00</item>
+        <item>6.25</item>
+        <item>9.50</item>
+        <item>8.75</item>
+        <item>7.25</item>
+        <item>8.50</item>
+        <item>9.75</item>
+        <item>7.00</item>
+        <item>9.25</item>
+        <item>8.75</item>
+        <item>10.00</item>
+        <item>9.50</item>
+        <item>8.00</item>
+        <item>10.25</item>
+        <item>9.75</item>
+        <item>8.50</item>
+        <item>10.75</item>
+        <item>11.00</item>
+        <item>10.50</item>
+        <item>11.25</item>
+        <item>9.00</item>
+        <item>11.50</item>
+        <item>11.75</item>
+        <item>10.00</item>
+        <item>12.00</item>
+    </string-array>
+
+    <string-array name="lunch_menu">
+        <item>General Tsos Chicken</item>
+        <item>Kung Pao Chicken</item>
+        <item>Sweet and Sour Pork</item>
+        <item>Beef with Broccoli</item>
+        <item>Orange Chicken</item>
+        <item>Sesame Chicken</item>
+        <item>Mongolian Beef</item>
+        <item>Lemon Chicken</item>
+        <item>Cashew Chicken</item>
+        <item>Szechuan Shrimp</item>
+        <item>Ma Po Tofu</item>
+        <item>Egg Foo Young</item>
+        <item>Chow Mein</item>
+        <item>Lo Mein</item>
+        <item>Fried Rice</item>
+        <item>Hot and Sour Soup</item>
+        <item>Wonton Soup</item>
+        <item>Egg Drop Soup</item>
+        <item>Beef Chow Fun</item>
+        <item>Chicken Chow Fun</item>
+        <item>Shrimp Chow Fun</item>
+        <item>Dim Sum Platter</item>
+        <item>Crab Rangoon</item>
+        <item>Spring Rolls</item>
+        <item>Pot Stickers</item>
+        <item>Chicken Lettuce Wraps</item>
+        <item>Pepper Steak</item>
+        <item>Moo Goo Gai Pan</item>
+        <item>Hunan Chicken</item>
+        <item>Chicken and Broccoli</item>
+        <item>Garlic Shrimp</item>
+        <item>Lemon Shrimp</item>
+        <item>Szechuan Beef</item>
+        <item>Shrimp with Lobster Sauce</item>
+        <item>General Tsos Tofu</item>
+        <item>Singapore Noodles</item>
+        <item>Chicken Fried Rice</item>
+        <item>Shrimp Fried Rice</item>
+        <item>Vegetable Fried Rice</item>
+        <item>Pineapple Chicken</item>
+        <item>Peking Duck</item>
+        <item>Beef and Broccoli Stir-Fry</item>
+        <item>Honey Walnut Shrimp</item>
+        <item>Orange Beef</item>
+        <item>Cashew Shrimp</item>
+        <item>Szechuan Tofu</item>
+        <item>Mongolian Chicken</item>
+        <item>Sweet-Sour Chicken</item>
+        <item>Moo Shu Pork</item>
+        <item>Salt-Pepper Shrimp</item>
+        <item>Sesame Beef</item>
+        <item>Kung Pao Shrimp</item>
+        <item>Spicy Szechuan Chicken</item>
+        <item>Beef-Snow Peas</item>
+        <item>Sesame Tofu</item>
+        <item>Chicken-Mushroom Stir-Fry</item>
+        <item>General Tsos Fish</item>
+        <item>Hot Garlic Eggplant</item>
+        <item>Fried Wontons</item>
+        <item>Crab and Corn Soup</item>
+        <item>Sizzling Rice Soup</item>
+        <item>Honey Garlic Chicken</item>
+        <item>Vegetable Lo Mein</item>
+        <item>Chicken Lo Mein</item>
+        <item>Shrimp Lo Mein</item>
+        <item>Shrimp-Lobster Sauce</item>
+        <item>Beef-Mixed Vegetables</item>
+        <item>Chicken-Cashew Nuts</item>
+        <item>Shrimp-Cashew Nuts</item>
+        <item>Beef-Garlic Sauce</item>
+        <item>Chicken-Black Bean Sauce</item>
+        <item>Szechuan Pork</item>
+        <item>Moo Shu Chicken</item>
+        <item>Hunan Beef</item>
+        <item>Tofu-Mixed Vegetables</item>
+        <item>Kung Pao Tofu</item>
+        <item>Vegetable Chow Mein</item>
+        <item>Tofu Chow Mein</item>
+        <item>Chicken with Snow Peas</item>
+        <item>Hunan Shrimp</item>
+        <item>Szechuan Chicken</item>
+        <item>Shrimp Egg Young</item>
+        <item>Chicken Egg Young</item>
+        <item>Beef Egg Foo Young</item>
+        <item>Vegetable Egg </item>
+        <item>Chicken-Garlic Sauce</item>
+        <item>Hunan Tofu</item>
+        <item>Sweet-Sour Shrimp</item>
+        <item>Beef-Oyster Sauce</item>
+        <item>Beef-Green Beans</item>
+        <item>Chicken-Green Beans</item>
+        <item>Beef-Peppers and Onions</item>
+        <item>Moo Goo Vegetables</item>
+        <item>Mixed Vegetable Stir-Fry</item>
+        <item>Tofu-Black Bean Sauce</item>
+        <item>Hunan Vegetables</item>
+        <item>Shrimp- Broccoli</item>
+        <item>Beef-String Beans</item>
+        <item>General Tsos Shrimp</item>
+        <item>Sesame Tofu Stir-Fry</item>
+    </string-array>
+    <string-array name="lunch_cost">
+        <item>37</item>
+        <item>20</item>
+        <item>12</item>
+        <item>42</item>
+        <item>8</item>
+        <item>23</item>
+        <item>5</item>
+        <item>31</item>
+        <item>14</item>
+        <item>18</item>
+        <item>7</item>
+        <item>40</item>
+        <item>9</item>
+        <item>25</item>
+        <item>2</item>
+        <item>35</item>
+        <item>16</item>
+        <item>3</item>
+        <item>19</item>
+        <item>29</item>
+        <item>41</item>
+        <item>11</item>
+        <item>33</item>
+        <item>6</item>
+        <item>21</item>
+        <item>30</item>
+        <item>26</item>
+        <item>10</item>
+        <item>44</item>
+        <item>38</item>
+        <item>4</item>
+        <item>22</item>
+        <item>27</item>
+        <item>13</item>
+        <item>24</item>
+        <item>17</item>
+        <item>39</item>
+        <item>32</item>
+        <item>15</item>
+        <item>43</item>
+        <item>36</item>
+        <item>34</item>
+        <item>1</item>
+        <item>45</item>
+        <item>28</item>
+        <item>5</item>
+        <item>2</item>
+        <item>10</item>
+        <item>15</item>
+        <item>41</item>
+        <item>30</item>
+        <item>9</item>
+        <item>8</item>
+        <item>37</item>
+        <item>7</item>
+        <item>22</item>
+        <item>24</item>
+        <item>20</item>
+        <item>43</item>
+        <item>27</item>
+        <item>14</item>
+        <item>4</item>
+        <item>13</item>
+        <item>31</item>
+        <item>38</item>
+        <item>17</item>
+        <item>35</item>
+        <item>11</item>
+        <item>33</item>
+        <item>18</item>
+        <item>34</item>
+        <item>16</item>
+        <item>40</item>
+        <item>23</item>
+        <item>42</item>
+        <item>1</item>
+        <item>21</item>
+        <item>25</item>
+        <item>19</item>
+        <item>28</item>
+        <item>6</item>
+        <item>3</item>
+        <item>44</item>
+        <item>45</item>
+        <item>12</item>
+        <item>36</item>
+        <item>29</item>
+        <item>37</item>
+        <item>20</item>
+        <item>12</item>
+        <item>42</item>
+        <item>8</item>
+        <item>23</item>
+        <item>5</item>
+        <item>31</item>
+        <item>14</item>
+        <item>18</item>
+        <item>7</item>
+        <item>40</item>
+        <item>9</item>
+        <item>25</item>
+        <item>2</item>
+        <item>35</item>
+        <item>16</item>
+        <item>3</item>
+        <item>19</item>
+        <item>29</item>
+        <item>41</item>
+        <item>11</item>
+        <item>33</item>
+        <item>6</item>
+        <item>21</item>
+        <item>30</item>
+        <item>26</item>
+        <item>10</item>
+        <item>44</item>
+        <item>38</item>
+        <item>4</item>
+        <item>22</item>
+        <item>27</item>
+        <item>13</item>
+        <item>24</item>
+        <item>17</item>
+        <item>39</item>
+        <item>32</item>
+        <item>15</item>
+        <item>43</item>
+        <item>36</item>
+        <item>34</item>
+        <item>1</item>
+        <item>45</item>
+        <item>28</item>
+        <item>5</item>
+        <item>2</item>
+        <item>10</item>
+        <item>15</item>
+        <item>41</item>
+        <item>30</item>
+        <item>9</item>
+        <item>8</item>
+        <item>37</item>
+        <item>7</item>
+        <item>22</item>
+        <item>24</item>
+        <item>20</item>
+        <item>43</item>
+        <item>27</item>
+        <item>14</item>
+        <item>4</item>
+        <item>13</item>
+        <item>31</item>
+        <item>38</item>
+        <item>17</item>
+        <item>35</item>
+        <item>11</item>
+        <item>33</item>
+        <item>18</item>
+        <item>34</item>
+        <item>16</item>
+        <item>40</item>
+        <item>23</item>
+        <item>42</item>
+        <item>1</item>
+        <item>21</item>
+        <item>25</item>
+        <item>19</item>
+        <item>28</item>
+        <item>6</item>
+        <item>3</item>
+        <item>44</item>
+        <item>45</item>
+        <item>12</item>
+        <item>36</item>
+        <item>29</item>
+    </string-array>
+    <string-array name="location">
+        <item>Argentina</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Bangladesh</item>
+        <item>Bahamas</item>
+        <item>Belgium</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Egypt</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kenya</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mexico</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Peru</item>
+        <item>Portugal</item>
+        <item>Qatar</item>
+        <item>Scotland</item>
+        <item>Singapore</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Thailand</item>
+        <item>Turkey</item>
+        <item>United Arab Emirates</item>
+        <item>United States</item>
+        <item>Vietnam</item>
+    </string-array>
+    <string-array name="Hotel_Name">
+        <item>Tranquil Resort</item>
+        <item>Serenity Lodge</item>
+        <item>Golden Horizon </item>
+        <item>Haven Inn</item>
+        <item>Whispering Hotel</item>
+        <item>Sunrise Resort</item>
+        <item>Crystal Lodge</item>
+        <item>Mountain Inn</item>
+        <item>Dreamscape Retreat</item>
+        <item>Azure Resort</item>
+        <item>Hilton</item>
+        <item>Marriott</item>
+        <item>InterContinental</item>
+        <item>Hyatt</item>
+        <item>Sheraton</item>
+
+    </string-array>
+
+    <string-array name="Hotel_cost">
+        <item>1000</item>
+        <item>1203</item>
+        <item>8000</item>
+        <item>1500</item>
+        <item>900</item>
+        <item>1103</item>
+        <item>950</item>
+        <item>1304</item>
+        <item>850</item>
+        <item>1402</item>
+        <item>1052</item>
+        <item>1255</item>
+        <item>759</item>
+        <item>1150</item>
+        <item>1359</item>
+    </string-array>
+
+
+    <string-array name="description">
+        <item>Luxurious suite with stunning ocean view. Enjoy breathtaking sunsets from your private balcony. Relax in a spacious living area adorned with elegant furnishings. Indulge in a rejuvenating spa experience in the luxurious bathroom. Delight in gourmet meals served in your room by our attentive staff. Unwind with a movie night on the state-of-the-art entertainment system. Experience unparalleled comfort and luxury in every corner of this opulent suite.</item>
+        <item>Cozy room with city skyline panorama. Wake up to panoramic views of the bustling cityscape. Sink into plush bedding after a day of exploring the citys attractions. Enjoy complimentary refreshments from the minibar as you admire the urban scenery. Stay connected with high-speed Wi-Fi and a dedicated workspace. Treat yourself to a relaxing bath in the modern ensuite bathroom. Take advantage of 24-hour room service for your convenience. Experience the perfect blend of comfort and convenience in this cozy urban retreat.</item>
+        <item>Spacious family room with garden access. Ideal for families seeking relaxation and comfort. Let the kids play freely in the lush garden while you unwind on the terrace. Share quality moments with loved ones in the cozy living area. Enjoy homemade meals prepared in the fully equipped kitchenette. Retreat to your comfortable bedroom for a peaceful night sleep. Wake up refreshed and ready to explore the nearby attractions. Create unforgettable memories with your family in this inviting family room.</item>
+        <item>Elegant suite with private balcony. Experience sophistication and luxury in every detail. Step onto your private balcony and admire panoramic views of the surrounding area. Relax in the spacious living room adorned with plush furnishings. Pamper yourself in the lavish marble bathroom with premium amenities. Enjoy a romantic dinner for two served in the privacy of your suite. Unwind with a glass of wine by the cozy fireplace in the evening. Retreat to your sumptuous bedroom for a restful nights sleep in this elegant suite.</item>
+        <item>Charming room with mountain view. Wake up to breathtaking views of the majestic mountains. Relax in the cozy seating area with a cup of freshly brewed coffee. Explore the nearby hiking trails and immerse yourself in natures beauty. Rejuvenate your senses with a soothing bath in the elegant ensuite bathroom. Indulge in delicious local cuisine at the onsite restaurant. Unwind with a book by the fireplace in the evening. Experience tranquility and serenity in this charming mountain retreat.</item>
+        <item>Modern loft with rooftop terrace. Immerse yourself in contemporary style and luxury. Soak up the sun on your private rooftop terrace with panoramic city views. Entertain guests in the spacious living area with sleek, modern furnishings. Prepare gourmet meals in the fully equipped kitchen with top-of-the-line appliances. Relax and unwind in the luxurious bathtub with spa jets. Enjoy cocktails and skyline views from the comfort of your terrace. Experience urban living at its finest in this stylish modern loft.</item>
+        <item>Sophisticated room with riverfront view. Wake up to the soothing sound of flowing water and picturesque river views. Relax in the elegantly furnished seating area with floor-to-ceiling windows. Indulge in a delicious breakfast served on your private balcony overlooking the river. Explore the nearby waterfront attractions and scenic walking paths. Return to your cozy room for a peaceful nights sleep. Wake up refreshed and ready to start another day of adventure. Experience luxury and tranquility on the riverfront in this sophisticated room.</item>
+        <item>Quaint cottage with fireplace. Experience cozy charm and rustic elegance in this quaint cottage. Curl up by the fireplace with a good book on chilly evenings. Prepare delicious meals in the fully equipped kitchen with farmhouse-style charm. Enjoy meals al fresco on the private patio surrounded by lush greenery. Retreat to your comfortable bedroom for a restful nights sleep. Wake up to the sound of birds chirping and enjoy a leisurely breakfast in the garden. Experience the warmth and comfort of home in this charming cottage.</item>
+        <item>Contemporary studio with kitchenette. Embrace modern comfort and convenience in this stylish studio. Prepare light meals and snacks in the convenient kitchenette with sleek appliances. Relax in the comfortable seating area after a day of exploring the city. Catch up on work or stay connected with high-speed Wi-Fi and a dedicated workspace. Refresh and rejuvenate in the sleek ensuite bathroom with premium amenities. Experience the perfect blend of style and functionality in this contemporary studio.</item>
+        <item>Deluxe room with jacuzzi and spa access. Indulge in ultimate relaxation and luxury in this deluxe room. Soak your cares away in the private jacuzzi tub with soothing bubbles. Enjoy access to the onsite spa facilities for pampering treatments and massages. Relax in the comfortable seating area with panoramic views of the surroundings. Savor gourmet meals and refreshing drinks from the room service menu. Unwind with a movie night on the large flat-screen TV. Experience unparalleled comfort and luxury in this deluxe room.</item>
+        <item>Tranquil retreat surrounded by nature. Escape the hustle and bustle of everyday life in this tranquil retreat. Relax on the private balcony and soak up the serene views of the surrounding nature. Explore nearby hiking trails and discover hidden waterfalls and scenic vistas. Return to your cozy room and unwind with a good book or a movie. Indulge in delicious meals made with fresh, locally sourced ingredients. Fall asleep to the soothing sounds of nature and wake up refreshed and rejuvenated. Experience peace and serenity in this idyllic natural retreat.</item>
+        <item>Chic urban escape with trendy decor. Immerse yourself in urban sophistication and style in this chic escape. Relax in the stylishly decorated living area with modern furnishings and artwork. Enjoy panoramic city views from the floor-to-ceiling windows. Explore the vibrant neighborhood and discover trendy cafes, bars, and boutiques. Return to your comfortable room and unwind with a refreshing drink from the minibar. Experience the vibrant energy of the city in this chic and stylish urban escape.</item>
+        <item>Luxurious suite with stunning ocean view. Enjoy breathtaking sunsets from your private balcony. Relax in a spacious living area adorned with elegant furnishings. Indulge in a rejuvenating spa experience in the luxurious bathroom. Delight in gourmet meals served in your room by our attentive staff. Unwind with a movie night on the state-of-the-art entertainment system. Experience unparalleled comfort and luxury in every corner of this opulent suite.</item>
+        <item>Cozy room with city skyline panorama. Wake up to panoramic views of the bustling cityscape. Sink into plush bedding after a day of exploring the citys attractions. Enjoy complimentary refreshments from the minibar as you admire the urban scenery. Stay connected with high-speed Wi-Fi and a dedicated workspace. Treat yourself to a relaxing bath in the modern ensuite bathroom. Take advantage of 24-hour room service for your convenience. Experience the perfect blend of comfort and convenience in this cozy urban retreat.</item>
+        <item>Spacious family room with garden access. Ideal for families seeking relaxation and comfort. Let the kids play freely in the lush garden while you unwind on the terrace. Share quality moments with loved ones in the cozy living area. Enjoy homemade meals prepared in the fully equipped kitchenette. Retreat to your comfortable bedroom for a peaceful nights sleep. Wake up refreshed and ready to explore the nearby attractions. Create unforgettable memories with your family in this inviting family room.</item>
+    </string-array>
+    <string-array name="Flight">
+        <item>Belgium to Maldives</item>
+        <item>Belgium to Mexico</item>
+        <item>Belgium to Netherlands</item>
+        <item>Belgium to New Zealand</item>
+        <item>Belgium to Norway</item>
+        <item>Belgium to Oman</item>
+        <item>Belgium to Peru</item>
+        <item>Belgium to Portugal</item>
+        <item>Belgium to Qatar</item>
+        <item>Belgium to Scotland</item>
+        <item>Belgium to Singapore</item>
+        <item>Belgium to South Africa</item>
+        <item>Belgium to South Korea</item>
+        <item>Belgium to Spain</item>
+        <item>Belgium to Sweden</item>
+        <item>Belgium to Switzerland</item>
+        <item>Belgium to Thailand</item>
+        <item>Belgium to Turkey</item>
+        <item>Belgium to United Arab Emirates</item>
+        <item>Belgium to United States</item>
+        <item>Belgium to Vietnam</item>
+        <item>Brazil to Canada</item>
+        <item>Brazil to Chile</item>
+        <item>Brazil to China</item>
+        <item>Brazil to Costa Rica</item>
+        <item>Brazil to Croatia</item>
+        <item>Brazil to Czech Republic</item>
+        <item>Brazil to Denmark</item>
+        <item>Brazil to Egypt</item>
+        <item>Brazil to Finland</item>
+        <item>Brazil to France</item>
+        <item>Brazil to Germany</item>
+        <item>Brazil to Greece</item>
+        <item>Brazil to Hungary</item>
+        <item>Brazil to Iceland</item>
+        <item>Brazil to India</item>
+        <item>Brazil to Indonesia</item>
+        <item>Brazil to Ireland</item>
+        <item>Brazil to Israel</item>
+        <item>Brazil to Italy</item>
+        <item>Brazil to Japan</item>
+        <item>Brazil to Jordan</item>
+        <item>Brazil to Kenya</item>
+        <item>Brazil to Malaysia</item>
+        <item>Brazil to Maldives</item>
+        <item>Brazil to Mexico</item>
+        <item>Brazil to Netherlands</item>
+        <item>Brazil to New Zealand</item>
+        <item>Brazil to Norway</item>
+        <item>Brazil to Oman</item>
+        <item>Brazil to Peru</item>
+        <item>Brazil to Portugal</item>
+        <item>Brazil to Qatar</item>
+        <item>Brazil to Scotland</item>
+        <item>Brazil to Singapore</item>
+        <item>Brazil to South Africa</item>
+        <item>Brazil to South Korea</item>
+        <item>Brazil to Spain</item>
+        <item>Brazil to Sweden</item>
+        <item>Brazil to Switzerland</item>
+        <item>Brazil to Thailand</item>
+        <item>Brazil to Turkey</item>
+        <item>Brazil to United Arab Emirates</item>
+        <item>Brazil to United States</item>
+        <item>Brazil to Vietnam</item>
+        <item>Canada to Chile</item>
+        <item>Canada to China</item>
+        <item>Canada to Costa Rica</item>
+        <item>Canada to Croatia</item>
+        <item>Canada to Czech Republic</item>
+        <item>Canada to Denmark</item>
+        <item>Canada to Egypt</item>
+        <item>Canada to Finland</item>
+        <item>Canada to France</item>
+        <item>Canada to Germany</item>
+        <item>Canada to Greece</item>
+        <item>Canada to Hungary</item>
+        <item>Canada to Iceland</item>
+        <item>Canada to India</item>
+        <item>Canada to Indonesia</item>
+        <item>Canada to Ireland</item>
+        <item>Canada to Israel</item>
+        <item>Canada to Italy</item>
+        <item>Canada to Japan</item>
+        <item>Canada to Jordan</item>
+        <item>Canada to Kenya</item>
+        <item>Canada to Malaysia</item>
+        <item>Canada to Maldives</item>
+        <item>Canada to Mexico</item>
+        <item>Canada to Netherlands</item>
+        <item>Canada to New Zealand</item>
+        <item>Canada to Norway</item>
+        <item>Canada to Oman</item>
+        <item>Canada to Peru</item>
+        <item>Canada to Portugal</item>
+        <item>Canada to Qatar</item>
+        <item>Canada to Scotland</item>
+        <item>Canada to Singapore</item>
+        <item>Canada to South Africa</item>
+        <item>Canada to South Korea</item>
+        <item>Canada to Spain</item>
+        <item>Canada to Sweden</item>
+        <item>Canada to Switzerland</item>
+        <item>Canada to Thailand</item>
+        <item>Canada to Turkey</item>
+        <item>Canada to United Arab Emirates</item>
+        <item>Canada to United States</item>
+        <item>Canada to Vietnam</item>
+        <item>Chile to China</item>
+        <item>Chile to Costa Rica</item>
+        <item>Chile to Croatia</item>
+        <item>Chile to Czech Republic</item>
+        <item>Chile to Denmark</item>
+        <item>Chile to Egypt</item>
+        <item>Chile to Finland</item>
+        <item>Chile to France</item>
+        <item>Chile to Germany</item>
+        <item>Chile to Greece</item>
+        <item>Chile to Hungary</item>
+        <item>Chile to Iceland</item>
+        <item>Chile to India</item>
+        <item>Chile to Indonesia</item>
+        <item>Chile to Ireland</item>
+        <item>Chile to Israel</item>
+        <item>Chile to Italy</item>
+        <item>Chile to Japan</item>
+        <item>Chile to Jordan</item>
+        <item>Chile to Kenya</item>
+        <item>Chile to Malaysia</item>
+        <item>Chile to Maldives</item>
+        <item>Chile to Mexico</item>
+        <item>Chile to Netherlands</item>
+        <item>Chile to New Zealand</item>
+        <item>Chile to Norway</item>
+        <item>Chile to Oman</item>
+        <item>Chile to Peru</item>
+        <item>Chile to Portugal</item>
+        <item>Chile to Qatar</item>
+        <item>Chile to Scotland</item>
+        <item>Chile to Singapore</item>
+        <item>Chile to South Africa</item>
+        <item>Chile to South Korea</item>
+        <item>Chile to Spain</item>
+        <item>Chile to Sweden</item>
+        <item>Chile to Switzerland</item>
+        <item>Chile to Thailand</item>
+        <item>Chile to Turkey</item>
+        <item>Chile to United Arab Emirates</item>
+        <item>Chile to United States</item>
+        <item>Chile to Vietnam</item>
+        <item>China to Costa Rica</item>
+        <item>China to Croatia</item>
+        <item>China to Czech Republic</item>
+        <item>China to Denmark</item>
+        <item>China to Egypt</item>
+        <item>China to Finland</item>
+        <item>China to France</item>
+        <item>China to Germany</item>
+        <item>China to Greece</item>
+        <item>China to Hungary</item>
+        <item>China to Iceland</item>
+        <item>China to India</item>
+        <item>China to Indonesia</item>
+        <item>China to Ireland</item>
+        <item>China to Israel</item>
+        <item>China to Italy</item>
+        <item>China to Japan</item>
+        <item>China to Jordan</item>
+        <item>China to Kenya</item>
+        <item>China to Malaysia</item>
+        <item>China to Maldives</item>
+        <item>China to Mexico</item>
+        <item>China to Netherlands</item>
+        <item>China to New Zealand</item>
+        <item>China to Norway</item>
+        <item>China to Oman</item>
+        <item>China to Peru</item>
+        <item>China to Portugal</item>
+        <item>China to Qatar</item>
+        <item>China to Scotland</item>
+        <item>China to Singapore</item>
+        <item>China to South Africa</item>
+        <item>China to South Korea</item>
+        <item>China to Spain</item>
+        <item>China to Sweden</item>
+        <item>China to Switzerland</item>
+        <item>China to Thailand</item>
+        <item>China to Turkey</item>
+        <item>China to United Arab Emirates</item>
+        <item>China to United States</item>
+        <item>China to Vietnam</item>
+        <item>Costa Rica to Croatia</item>
+        <item>Costa Rica to Czech Republic</item>
+        <item>Costa Rica to Denmark</item>
+        <item>Costa Rica to Egypt</item>
+        <item>Costa Rica to Finland</item>
+        <item>Costa Rica to France</item>
+        <item>Costa Rica to Germany</item>
+        <item>Costa Rica to Greece</item>
+        <item>Costa Rica to Hungary</item>
+        <item>Costa Rica to Iceland</item>
+        <item>Costa Rica to India</item>
+        <item>Costa Rica to Indonesia</item>
+        <item>Costa Rica to Ireland</item>
+        <item>Costa Rica to Israel</item>
+        <item>Costa Rica to Italy</item>
+        <item>Costa Rica to Japan</item>
+        <item>Costa Rica to Jordan</item>
+        <item>Costa Rica to Kenya</item>
+        <item>Costa Rica to Malaysia</item>
+        <item>Costa Rica to Maldives</item>
+        <item>Costa Rica to Mexico</item>
+        <item>Costa Rica to Netherlands</item>
+        <item>Costa Rica to New Zealand</item>
+        <item>Costa Rica to Norway</item>
+        <item>Costa Rica to Oman</item>
+        <item>Costa Rica to Peru</item>
+        <item>Costa Rica to Portugal</item>
+        <item>Costa Rica to Qatar</item>
+        <item>Costa Rica to Scotland</item>
+        <item>Costa Rica to Singapore</item>
+        <item>Costa Rica to South Africa</item>
+        <item>Costa Rica to South Korea</item>
+        <item>Costa Rica to Spain</item>
+        <item>Costa Rica to Sweden</item>
+        <item>Costa Rica to Switzerland</item>
+        <item>Costa Rica to Thailand</item>
+        <item>Costa Rica to Turkey</item>
+        <item>Costa Rica to United Arab Emirates</item>
+        <item>Costa Rica to United States</item>
+        <item>Costa Rica to Vietnam</item>
+        <item>Croatia to Czech Republic</item>
+        <item>Croatia to Denmark</item>
+        <item>Croatia to Egypt</item>
+        <item>Croatia to Finland</item>
+        <item>Croatia to France</item>
+        <item>Croatia to Germany</item>
+        <item>Croatia to Greece</item>
+        <item>Croatia to Hungary</item>
+        <item>Croatia to Iceland</item>
+        <item>Croatia to India</item>
+        <item>Croatia to Indonesia</item>
+        <item>Croatia to Ireland</item>
+        <item>Croatia to Israel</item>
+        <item>Croatia to Italy</item>
+        <item>Croatia to Japan</item>
+        <item>Croatia to Jordan</item>
+        <item>Croatia to Kenya</item>
+        <item>Croatia to Malaysia</item>
+        <item>Croatia to Maldives</item>
+        <item>Croatia to Mexico</item>
+        <item>Croatia to Netherlands</item>
+        <item>Croatia to New Zealand</item>
+        <item>Croatia to Norway</item>
+        <item>Croatia to Oman</item>
+        <item>Croatia to Peru</item>
+        <item>Croatia to Portugal</item>
+        <item>Croatia to Qatar</item>
+        <item>Croatia to Scotland</item>
+        <item>Croatia to Singapore</item>
+        <item>Croatia to South Africa</item>
+        <item>Croatia to South Korea</item>
+        <item>Croatia to Spain</item>
+        <item>Croatia to Sweden</item>
+        <item>Croatia to Switzerland</item>
+        <item>Croatia to Thailand</item>
+        <item>Croatia to Turkey</item>
+        <item>Croatia to United Arab Emirates</item>
+        <item>Croatia to United States</item>
+        <item>Croatia to Vietnam</item>
+        <item>Czech Republic to Denmark</item>
+        <item>Czech Republic to Egypt</item>
+        <item>Czech Republic to Finland</item>
+        <item>Czech Republic to France</item>
+        <item>Czech Republic to Germany</item>
+        <item>Czech Republic to Greece</item>
+        <item>Czech Republic to Hungary</item>
+        <item>Czech Republic to Iceland</item>
+        <item>Czech Republic to India</item>
+        <item>Czech Republic to Indonesia</item>
+        <item>Czech Republic to Ireland</item>
+        <item>Czech Republic to Israel</item>
+        <item>Czech Republic to Italy</item>
+        <item>Czech Republic to Japan</item>
+        <item>Czech Republic to Jordan</item>
+        <item>Czech Republic to Kenya</item>
+        <item>Czech Republic to Malaysia</item>
+        <item>Czech Republic to Maldives</item>
+        <item>Czech Republic to Mexico</item>
+        <item>Czech Republic to Netherlands</item>
+        <item>Czech Republic to New Zealand</item>
+        <item>Czech Republic to Norway</item>
+        <item>Czech Republic to Oman</item>
+        <item>Czech Republic to Peru</item>
+        <item>Czech Republic to Portugal</item>
+        <item>Czech Republic to Qatar</item>
+        <item>Czech Republic to Scotland</item>
+        <item>Czech Republic to Singapore</item>
+        <item>Czech Republic to South Africa</item>
+        <item>Czech Republic to South Korea</item>
+        <item>Czech Republic to Spain</item>
+        <item>Czech Republic to Sweden</item>
+        <item>Czech Republic to Switzerland</item>
+        <item>Czech Republic to Thailand</item>
+        <item>Czech Republic to Turkey</item>
+        <item>Czech Republic to United Arab Emirates</item>
+        <item>Czech Republic to United States</item>
+        <item>Czech Republic to Vietnam</item>
+        <item>Denmark to Egypt</item>
+        <item>Denmark to Finland</item>
+        <item>Denmark to France</item>
+        <item>Denmark to Germany</item>
+        <item>Denmark to Greece</item>
+        <item>Denmark to Hungary</item>
+        <item>Denmark to Iceland</item>
+        <item>Denmark to India</item>
+        <item>Denmark to Indonesia</item>
+        <item>Denmark to Ireland</item>
+        <item>Denmark to Israel</item>
+        <item>Denmark to Italy</item>
+        <item>Denmark to Japan</item>
+        <item>Denmark to Jordan</item>
+        <item>Denmark to Kenya</item>
+        <item>Denmark to Malaysia</item>
+        <item>Denmark to Maldives</item>
+        <item>Denmark to Mexico</item>
+        <item>Denmark to Netherlands</item>
+        <item>Denmark to New Zealand</item>
+        <item>Denmark to Norway</item>
+        <item>Denmark to Oman</item>
+        <item>Denmark to Peru</item>
+        <item>Denmark to Portugal</item>
+        <item>Denmark to Qatar</item>
+        <item>Denmark to Scotland</item>
+        <item>Denmark to Singapore</item>
+        <item>Denmark to South Africa</item>
+        <item>Denmark to South Korea</item>
+        <item>Denmark to Spain</item>
+        <item>Denmark to Sweden</item>
+        <item>Denmark to Switzerland</item>
+        <item>Denmark to Thailand</item>
+        <item>Denmark to Turkey</item>
+        <item>Denmark to United Arab Emirates</item>
+        <item>Denmark to United States</item>
+        <item>Denmark to Vietnam</item>
+        <item>Egypt to Finland</item>
+        <item>Egypt to France</item>
+        <item>Egypt to Germany</item>
+        <item>Egypt to Greece</item>
+        <item>Egypt to Hungary</item>
+        <item>Egypt to Iceland</item>
+        <item>Egypt to India</item>
+        <item>Egypt to Indonesia</item>
+        <item>Egypt to Ireland</item>
+        <item>Egypt to Israel</item>
+        <item>Egypt to Italy</item>
+        <item>Egypt to Japan</item>
+        <item>Egypt to Jordan</item>
+        <item>Egypt to Kenya</item>
+        <item>Egypt to Malaysia</item>
+        <item>Egypt to Maldives</item>
+        <item>Egypt to Mexico</item>
+        <item>Egypt to Netherlands</item>
+        <item>Egypt to New Zealand</item>
+        <item>Egypt to Norway</item>
+        <item>Egypt to Oman</item>
+        <item>Egypt to Peru</item>
+        <item>Egypt to Portugal</item>
+        <item>Egypt to Qatar</item>
+        <item>Egypt to Scotland</item>
+        <item>Egypt to Singapore</item>
+        <item>Egypt to South Africa</item>
+        <item>Egypt to South Korea</item>
+        <item>Egypt to Spain</item>
+        <item>Egypt to Sweden</item>
+        <item>Egypt to Switzerland</item>
+        <item>Egypt to Thailand</item>
+        <item>Egypt to Turkey</item>
+        <item>Egypt to United Arab Emirates</item>
+        <item>Egypt to United States</item>
+        <item>Egypt to Vietnam</item>
+        <item>Finland to France</item>
+        <item>Finland to Germany</item>
+        <item>Finland to Greece</item>
+        <item>Finland to Hungary</item>
+        <item>Finland to Iceland</item>
+        <item>Finland to India</item>
+        <item>Finland to Indonesia</item>
+        <item>Finland to Ireland</item>
+        <item>Finland to Israel</item>
+        <item>Finland to Italy</item>
+        <item>Finland to Japan</item>
+        <item>Finland to Jordan</item>
+        <item>Finland to Kenya</item>
+        <item>Finland to Malaysia</item>
+        <item>Finland to Maldives</item>
+        <item>Finland to Mexico</item>
+        <item>Finland to Netherlands</item>
+        <item>Finland to New Zealand</item>
+        <item>Finland to Norway</item>
+        <item>Finland to Oman</item>
+        <item>Finland to Peru</item>
+        <item>Finland to Portugal</item>
+        <item>Finland to Qatar</item>
+        <item>Finland to Scotland</item>
+        <item>Finland to Singapore</item>
+        <item>Finland to South Africa</item>
+        <item>Finland to South Korea</item>
+        <item>Finland to Spain</item>
+        <item>Finland to Sweden</item>
+        <item>Finland to Switzerland</item>
+        <item>Finland to Thailand</item>
+        <item>Finland to Turkey</item>
+        <item>Finland to United Arab Emirates</item>
+        <item>Finland to United States</item>
+        <item>Finland to Vietnam</item>
+        <item>France to Germany</item>
+        <item>France to Greece</item>
+        <item>France to Hungary</item>
+        <item>France to Iceland</item>
+        <item>France to India</item>
+        <item>France to Indonesia</item>
+        <item>France to Ireland</item>
+        <item>France to Israel</item>
+        <item>France to Italy</item>
+        <item>France to Japan</item>
+        <item>France to Jordan</item>
+        <item>France to Kenya</item>
+        <item>France to Malaysia</item>
+        <item>France to Maldives</item>
+        <item>France to Mexico</item>
+        <item>France to Netherlands</item>
+        <item>France to New Zealand</item>
+        <item>France to Norway</item>
+        <item>France to Oman</item>
+        <item>France to Peru</item>
+        <item>France to Portugal</item>
+        <item>France to Qatar</item>
+        <item>France to Scotland</item>
+        <item>France to Singapore</item>
+        <item>France to South Africa</item>
+        <item>France to South Korea</item>
+        <item>France to Spain</item>
+        <item>France to Sweden</item>
+        <item>France to Switzerland</item>
+        <item>France to Thailand</item>
+        <item>France to Turkey</item>
+        <item>France to United Arab Emirates</item>
+        <item>France to United States</item>
+        <item>France to Vietnam</item>
+        <item>Germany to Greece</item>
+        <item>Germany to Hungary</item>
+        <item>Germany to Iceland</item>
+        <item>Germany to India</item>
+        <item>Germany to Indonesia</item>
+        <item>Germany to Ireland</item>
+        <item>Germany to Israel</item>
+        <item>Germany to Italy</item>
+        <item>Germany to Japan</item>
+        <item>Germany to Jordan</item>
+        <item>Germany to Kenya</item>
+        <item>Germany to Malaysia</item>
+        <item>Germany to Maldives</item>
+        <item>Germany to Mexico</item>
+        <item>Germany to Netherlands</item>
+        <item>Germany to New Zealand</item>
+        <item>Germany to Norway</item>
+        <item>Germany to Oman</item>
+        <item>Germany to Peru</item>
+        <item>Germany to Portugal</item>
+        <item>Germany to Qatar</item>
+        <item>Germany to Scotland</item>
+        <item>Germany to Singapore</item>
+        <item>Germany to South Africa</item>
+        <item>Germany to South Korea</item>
+        <item>Germany to Spain</item>
+        <item>Germany to Sweden</item>
+        <item>Germany to Switzerland</item>
+        <item>Germany to Thailand</item>
+        <item>Germany to Turkey</item>
+        <item>Germany to United Arab Emirates</item>
+        <item>Germany to United States</item>
+        <item>Germany to Vietnam</item>
+        <item>Greece to Hungary</item>
+        <item>Greece to Iceland</item>
+        <item>Greece to India</item>
+        <item>Greece to Indonesia</item>
+        <item>Greece to Ireland</item>
+        <item>Greece to Israel</item>
+        <item>Greece to Italy</item>
+        <item>Greece to Japan</item>
+        <item>Greece to Jordan</item>
+        <item>Greece to Kenya</item>
+        <item>Greece to Malaysia</item>
+        <item>Greece to Maldives</item>
+        <item>Greece to Mexico</item>
+        <item>Greece to Netherlands</item>
+        <item>Greece to New Zealand</item>
+        <item>Greece to Norway</item>
+        <item>Greece to Oman</item>
+        <item>Greece to Peru</item>
+        <item>Greece to Portugal</item>
+        <item>Greece to Qatar</item>
+        <item>Greece to Scotland</item>
+        <item>Greece to Singapore</item>
+        <item>Greece to South Africa</item>
+        <item>Greece to South Korea</item>
+        <item>Greece to Spain</item>
+        <item>Greece to Sweden</item>
+        <item>Greece to Switzerland</item>
+        <item>Greece to Thailand</item>
+        <item>Greece to Turkey</item>
+        <item>Greece to United Arab Emirates</item>
+        <item>Greece to United States</item>
+        <item>Greece to Vietnam</item>
+        <item>Hungary to Iceland</item>
+        <item>Hungary to India</item>
+        <item>Hungary to Indonesia</item>
+        <item>Hungary to Ireland</item>
+        <item>Hungary to Israel</item>
+        <item>Hungary to Italy</item>
+        <item>Hungary to Japan</item>
+        <item>Hungary to Jordan</item>
+        <item>Hungary to Kenya</item>
+        <item>Hungary to Malaysia</item>
+        <item>Hungary to Maldives</item>
+        <item>Hungary to Mexico</item>
+        <item>Hungary to Netherlands</item>
+        <item>Hungary to New Zealand</item>
+        <item>Hungary to Norway</item>
+        <item>Hungary to Oman</item>
+        <item>Hungary to Peru</item>
+        <item>Hungary to Portugal</item>
+        <item>Hungary to Qatar</item>
+        <item>Hungary to Scotland</item>
+        <item>Hungary to Singapore</item>
+        <item>Hungary to South Africa</item>
+        <item>Hungary to South Korea</item>
+        <item>Hungary to Spain</item>
+        <item>Hungary to Sweden</item>
+        <item>Hungary to Switzerland</item>
+        <item>Hungary to Thailand</item>
+        <item>Hungary to Turkey</item>
+        <item>Hungary to United Arab Emirates</item>
+        <item>Hungary to United States</item>
+        <item>Hungary to Vietnam</item>
+        <item>Iceland to India</item>
+        <item>Iceland to Indonesia</item>
+        <item>Iceland to Ireland</item>
+        <item>Iceland to Israel</item>
+        <item>Iceland to Italy</item>
+        <item>Iceland to Japan</item>
+        <item>Iceland to Jordan</item>
+        <item>Iceland to Kenya</item>
+        <item>Iceland to Malaysia</item>
+        <item>Iceland to Maldives</item>
+        <item>Iceland to Mexico</item>
+        <item>Iceland to Netherlands</item>
+        <item>Iceland to New Zealand</item>
+        <item>Iceland to Norway</item>
+        <item>Iceland to Oman</item>
+        <item>Iceland to Peru</item>
+        <item>Iceland to Portugal</item>
+        <item>Iceland to Qatar</item>
+        <item>Iceland to Scotland</item>
+        <item>Iceland to Singapore</item>
+        <item>Iceland to South Africa</item>
+        <item>Iceland to South Korea</item>
+        <item>Iceland to Spain</item>
+        <item>Iceland to Sweden</item>
+        <item>Iceland to Switzerland</item>
+        <item>Iceland to Thailand</item>
+        <item>Iceland to Turkey</item>
+        <item>Iceland to United Arab Emirates</item>
+        <item>Iceland to United States</item>
+        <item>Iceland to Vietnam</item>
+        <item>India to Indonesia</item>
+        <item>India to Ireland</item>
+        <item>India to Israel</item>
+        <item>India to Italy</item>
+        <item>India to Japan</item>
+        <item>India to Jordan</item>
+        <item>India to Kenya</item>
+        <item>India to Malaysia</item>
+        <item>India to Maldives</item>
+        <item>India to Mexico</item>
+        <item>India to Netherlands</item>
+        <item>India to New Zealand</item>
+        <item>India to Norway</item>
+        <item>India to Oman</item>
+        <item>India to Peru</item>
+        <item>India to Portugal</item>
+        <item>India to Qatar</item>
+        <item>India to Scotland</item>
+        <item>India to Singapore</item>
+        <item>India to South Africa</item>
+        <item>India to South Korea</item>
+        <item>India to Spain</item>
+        <item>India to Sweden</item>
+        <item>India to Switzerland</item>
+        <item>India to Thailand</item>
+        <item>India to Turkey</item>
+        <item>India to United Arab Emirates</item>
+        <item>India to United States</item>
+        <item>India to Vietnam</item>
+        <item>Indonesia to Ireland</item>
+        <item>Indonesia to Israel</item>
+        <item>Indonesia to Italy</item>
+        <item>Indonesia to Japan</item>
+        <item>Indonesia to Jordan</item>
+        <item>Indonesia to Kenya</item>
+        <item>Indonesia to Malaysia</item>
+        <item>Indonesia to Maldives</item>
+        <item>Indonesia to Mexico</item>
+        <item>Indonesia to Netherlands</item>
+        <item>Indonesia to New Zealand</item>
+        <item>Indonesia to Norway</item>
+        <item>Indonesia to Oman</item>
+        <item>Indonesia to Peru</item>
+        <item>Indonesia to Portugal</item>
+        <item>Indonesia to Qatar</item>
+        <item>Indonesia to Scotland</item>
+        <item>Indonesia to Singapore</item>
+        <item>Indonesia to South Africa</item>
+        <item>Indonesia to South Korea</item>
+        <item>Indonesia to Spain</item>
+        <item>Indonesia to Sweden</item>
+        <item>Indonesia to Switzerland</item>
+        <item>Indonesia to Thailand</item>
+        <item>Indonesia to Turkey</item>
+        <item>Indonesia to United Arab Emirates</item>
+        <item>Indonesia to United States</item>
+        <item>Indonesia to Vietnam</item>
+        <item>Ireland to Israel</item>
+        <item>Ireland to Italy</item>
+        <item>Ireland to Japan</item>
+        <item>Ireland to Jordan</item>
+        <item>Ireland to Kenya</item>
+        <item>Ireland to Malaysia</item>
+        <item>Ireland to Maldives</item>
+        <item>Ireland to Mexico</item>
+        <item>Ireland to Netherlands</item>
+        <item>Ireland to New Zealand</item>
+        <item>Ireland to Norway</item>
+        <item>Ireland to Oman</item>
+        <item>Ireland to Peru</item>
+        <item>Ireland to Portugal</item>
+        <item>Ireland to Qatar</item>
+        <item>Ireland to Scotland</item>
+        <item>Ireland to Singapore</item>
+        <item>Ireland to South Africa</item>
+        <item>Ireland to South Korea</item>
+        <item>Ireland to Spain</item>
+        <item>Ireland to Sweden</item>
+        <item>Ireland to Switzerland</item>
+        <item>Ireland to Thailand</item>
+        <item>Ireland to Turkey</item>
+        <item>Ireland to United Arab Emirates</item>
+        <item>Ireland to United States</item>
+        <item>Ireland to Vietnam</item>
+        <item>Israel to Italy</item>
+        <item>Israel to Japan</item>
+        <item>Israel to Jordan</item>
+        <item>Israel to Kenya</item>
+        <item>Israel to Malaysia</item>
+        <item>Israel to Maldives</item>
+        <item>Israel to Mexico</item>
+        <item>Israel to Netherlands</item>
+        <item>Israel to New Zealand</item>
+        <item>Israel to Norway</item>
+        <item>Israel to Oman</item>
+        <item>Israel to Peru</item>
+        <item>Israel to Portugal</item>
+        <item>Israel to Qatar</item>
+        <item>Israel to Scotland</item>
+        <item>Israel to Singapore</item>
+        <item>Israel to South Africa</item>
+        <item>Israel to South Korea</item>
+        <item>Israel to Spain</item>
+        <item>Israel to Sweden</item>
+        <item>Israel to Switzerland</item>
+        <item>Israel to Thailand</item>
+        <item>Israel to Turkey</item>
+        <item>Israel to United Arab Emirates</item>
+        <item>Israel to United States</item>
+        <item>Israel to Vietnam</item>
+        <item>Italy to Japan</item>
+        <item>Italy to Jordan</item>
+        <item>Italy to Kenya</item>
+        <item>Italy to Malaysia</item>
+        <item>Italy to Maldives</item>
+        <item>Italy to Mexico</item>
+        <item>Italy to Netherlands</item>
+        <item>Italy to New Zealand</item>
+        <item>Italy to Norway</item>
+        <item>Italy to Oman</item>
+        <item>Italy to Peru</item>
+        <item>Italy to Portugal</item>
+        <item>Italy to Qatar</item>
+        <item>Italy to Scotland</item>
+        <item>Italy to Singapore</item>
+        <item>Italy to South Africa</item>
+        <item>Italy to South Korea</item>
+        <item>Italy to Spain</item>
+        <item>Italy to Sweden</item>
+        <item>Italy to Switzerland</item>
+        <item>Italy to Thailand</item>
+        <item>Italy to Turkey</item>
+        <item>Italy to United Arab Emirates</item>
+        <item>Italy to United States</item>
+        <item>Italy to Vietnam</item>
+        <item>Japan to Jordan</item>
+        <item>Japan to Kenya</item>
+        <item>Japan to Malaysia</item>
+        <item>Japan to Maldives</item>
+        <item>Japan to Mexico</item>
+        <item>Japan to Netherlands</item>
+        <item>Japan to New Zealand</item>
+        <item>Japan to Norway</item>
+        <item>Japan to Oman</item>
+        <item>Japan to Peru</item>
+        <item>Japan to Portugal</item>
+        <item>Japan to Qatar</item>
+        <item>Japan to Scotland</item>
+        <item>Japan to Singapore</item>
+        <item>Japan to South Africa</item>
+        <item>Japan to South Korea</item>
+        <item>Japan to Spain</item>
+        <item>Japan to Sweden</item>
+        <item>Japan to Switzerland</item>
+        <item>Japan to Thailand</item>
+        <item>Japan to Turkey</item>
+        <item>Japan to United Arab Emirates</item>
+        <item>Japan to United States</item>
+        <item>Japan to Vietnam</item>
+        <item>Jordan to Kenya</item>
+        <item>Jordan to Malaysia</item>
+        <item>Jordan to Maldives</item>
+        <item>Jordan to Mexico</item>
+        <item>Jordan to Netherlands</item>
+        <item>Jordan to New Zealand</item>
+        <item>Jordan to Norway</item>
+        <item>Jordan to Oman</item>
+        <item>Jordan to Peru</item>
+        <item>Jordan to Portugal</item>
+        <item>Jordan to Qatar</item>
+        <item>Jordan to Scotland</item>
+        <item>Jordan to Singapore</item>
+        <item>Jordan to South Africa</item>
+        <item>Jordan to South Korea</item>
+        <item>Jordan to Spain</item>
+        <item>Jordan to Sweden</item>
+        <item>Jordan to Switzerland</item>
+        <item>Jordan to Thailand</item>
+        <item>Jordan to Turkey</item>
+        <item>Jordan to United Arab Emirates</item>
+        <item>Jordan to United States</item>
+        <item>Jordan to Vietnam</item>
+        <item>Kenya to Malaysia</item>
+        <item>Kenya to Maldives</item>
+        <item>Kenya to Mexico</item>
+        <item>Kenya to Netherlands</item>
+        <item>Kenya to New Zealand</item>
+        <item>Kenya to Norway</item>
+        <item>Kenya to Oman</item>
+        <item>Kenya to Peru</item>
+        <item>Kenya to Portugal</item>
+        <item>Kenya to Qatar</item>
+        <item>Kenya to Scotland</item>
+        <item>Kenya to Singapore</item>
+        <item>Kenya to South Africa</item>
+        <item>Kenya to South Korea</item>
+        <item>Kenya to Spain</item>
+        <item>Kenya to Sweden</item>
+        <item>Kenya to Switzerland</item>
+        <item>Kenya to Thailand</item>
+        <item>Kenya to Turkey</item>
+        <item>Kenya to United Arab Emirates</item>
+        <item>Kenya to United States</item>
+        <item>Kenya to Vietnam</item>
+        <item>Malaysia to Maldives</item>
+        <item>Malaysia to Mexico</item>
+        <item>Malaysia to Netherlands</item>
+        <item>Malaysia to New Zealand</item>
+        <item>Malaysia to Norway</item>
+        <item>Malaysia to Oman</item>
+        <item>Malaysia to Peru</item>
+        <item>Malaysia to Portugal</item>
+        <item>Malaysia to Qatar</item>
+        <item>Malaysia to Scotland</item>
+        <item>Malaysia to Singapore</item>
+        <item>Malaysia to South Africa</item>
+        <item>Malaysia to South Korea</item>
+        <item>Malaysia to Spain</item>
+        <item>Malaysia to Sweden</item>
+        <item>Malaysia to Switzerland</item>
+        <item>Malaysia to Thailand</item>
+        <item>Malaysia to Turkey</item>
+        <item>Malaysia to United Arab Emirates</item>
+        <item>Malaysia to United States</item>
+        <item>Malaysia to Vietnam</item>
+        <item>Maldives to Mexico</item>
+        <item>Maldives to Netherlands</item>
+        <item>Maldives to New Zealand</item>
+        <item>Maldives to Norway</item>
+        <item>Maldives to Oman</item>
+        <item>Maldives to Peru</item>
+        <item>Maldives to Portugal</item>
+        <item>Maldives to Qatar</item>
+        <item>Maldives to Scotland</item>
+        <item>Maldives to Singapore</item>
+        <item>Maldives to South Africa</item>
+        <item>Maldives to South Korea</item>
+        <item>Maldives to Spain</item>
+        <item>Maldives to Sweden</item>
+        <item>Maldives to Switzerland</item>
+        <item>Maldives to Thailand</item>
+        <item>Maldives to Turkey</item>
+        <item>Maldives to United Arab Emirates</item>
+        <item>Maldives to United States</item>
+        <item>Maldives to Vietnam</item>
+        <item>Mexico to Netherlands</item>
+        <item>Mexico to New Zealand</item>
+        <item>Mexico to Norway</item>
+        <item>Mexico to Oman</item>
+        <item>Mexico to Peru</item>
+        <item>Mexico to Portugal</item>
+        <item>Mexico to Qatar</item>
+        <item>Mexico to Scotland</item>
+        <item>Mexico to Singapore</item>
+        <item>Mexico to South Africa</item>
+        <item>Mexico to South Korea</item>
+        <item>Mexico to Spain</item>
+        <item>Mexico to Sweden</item>
+        <item>Mexico to Switzerland</item>
+        <item>Mexico to Thailand</item>
+        <item>Mexico to Turkey</item>
+        <item>Mexico to United Arab Emirates</item>
+        <item>Mexico to United States</item>
+        <item>Mexico to Vietnam</item>
+        <item>Netherlands to New Zealand</item>
+        <item>Netherlands to Norway</item>
+        <item>Netherlands to Oman</item>
+        <item>Netherlands to Peru</item>
+        <item>Netherlands to Portugal</item>
+        <item>Netherlands to Qatar</item>
+        <item>Netherlands to Scotland</item>
+        <item>Netherlands to Singapore</item>
+        <item>Netherlands to South Africa</item>
+        <item>Netherlands to South Korea</item>
+        <item>Netherlands to Spain</item>
+        <item>Netherlands to Sweden</item>
+        <item>Netherlands to Switzerland</item>
+        <item>Netherlands to Thailand</item>
+        <item>Netherlands to Turkey</item>
+        <item>Netherlands to United Arab Emirates</item>
+        <item>Netherlands to United States</item>
+        <item>Netherlands to Vietnam</item>
+        <item>New Zealand to Norway</item>
+        <item>New Zealand to Oman</item>
+        <item>New Zealand to Peru</item>
+        <item>New Zealand to Portugal</item>
+        <item>New Zealand to Qatar</item>
+        <item>New Zealand to Scotland</item>
+        <item>New Zealand to Singapore</item>
+        <item>New Zealand to South Africa</item>
+        <item>New Zealand to South Korea</item>
+        <item>New Zealand to Spain</item>
+        <item>New Zealand to Sweden</item>
+        <item>New Zealand to Switzerland</item>
+        <item>New Zealand to Thailand</item>
+        <item>New Zealand to Turkey</item>
+        <item>New Zealand to United Arab Emirates</item>
+        <item>New Zealand to United States</item>
+        <item>New Zealand to Vietnam</item>
+        <item>Norway to Oman</item>
+        <item>Norway to Peru</item>
+        <item>Norway to Portugal</item>
+        <item>Norway to Qatar</item>
+        <item>Norway to Scotland</item>
+        <item>Norway to Singapore</item>
+        <item>Norway to South Africa</item>
+        <item>Norway to South Korea</item>
+        <item>Norway to Spain</item>
+        <item>Norway to Sweden</item>
+        <item>Norway to Switzerland</item>
+        <item>Norway to Thailand</item>
+        <item>Norway to Turkey</item>
+        <item>Norway to United Arab Emirates</item>
+        <item>Norway to United States</item>
+        <item>Norway to Vietnam</item>
+        <item>Oman to Peru</item>
+        <item>Oman to Portugal</item>
+        <item>Oman to Qatar</item>
+        <item>Oman to Scotland</item>
+        <item>Oman to Singapore</item>
+        <item>Oman to South Africa</item>
+        <item>Oman to South Korea</item>
+        <item>Oman to Spain</item>
+        <item>Oman to Sweden</item>
+        <item>Oman to Switzerland</item>
+        <item>Oman to Thailand</item>
+        <item>Oman to Turkey</item>
+        <item>Oman to United Arab Emirates</item>
+        <item>Oman to United States</item>
+        <item>Oman to Vietnam</item>
+        <item>Peru to Portugal</item>
+        <item>Peru to Qatar</item>
+        <item>Peru to Scotland</item>
+        <item>Peru to Singapore</item>
+        <item>Peru to South Africa</item>
+        <item>Peru to South Korea</item>
+        <item>Peru to Spain</item>
+        <item>Peru to Sweden</item>
+        <item>Peru to Switzerland</item>
+        <item>Peru to Thailand</item>
+        <item>Peru to Turkey</item>
+        <item>Peru to United Arab Emirates</item>
+        <item>Peru to United States</item>
+        <item>Peru to Vietnam</item>
+        <item>Portugal to Qatar</item>
+        <item>Portugal to Scotland</item>
+        <item>Portugal to Singapore</item>
+        <item>Portugal to South Africa</item>
+        <item>Portugal to South Korea</item>
+        <item>Portugal to Spain</item>
+        <item>Portugal to Sweden</item>
+        <item>Portugal to Switzerland</item>
+        <item>Portugal to Thailand</item>
+        <item>Portugal to Turkey</item>
+        <item>Portugal to United Arab Emirates</item>
+        <item>Portugal to United States</item>
+        <item>Portugal to Vietnam</item>
+        <item>Qatar to Scotland</item>
+        <item>Qatar to Singapore</item>
+        <item>Qatar to South Africa</item>
+        <item>Qatar to South Korea</item>
+        <item>Qatar to Spain</item>
+        <item>Qatar to Sweden</item>
+        <item>Qatar to Switzerland</item>
+        <item>Qatar to Thailand</item>
+        <item>Qatar to Turkey</item>
+        <item>Qatar to United Arab Emirates</item>
+        <item>Qatar to United States</item>
+        <item>Qatar to Vietnam</item>
+        <item>Scotland to Singapore</item>
+        <item>Scotland to South Africa</item>
+        <item>Scotland to South Korea</item>
+        <item>Scotland to Spain</item>
+        <item>Scotland to Sweden</item>
+        <item>Scotland to Switzerland</item>
+        <item>Scotland to Thailand</item>
+        <item>Scotland to Turkey</item>
+        <item>Scotland to United Arab Emirates</item>
+        <item>Scotland to United States</item>
+        <item>Scotland to Vietnam</item>
+        <item>Singapore to South Africa</item>
+        <item>Singapore to South Korea</item>
+        <item>Singapore to Spain</item>
+        <item>Singapore to Sweden</item>
+        <item>Singapore to Switzerland</item>
+        <item>Singapore to Thailand</item>
+        <item>Singapore to Turkey</item>
+        <item>Singapore to United Arab Emirates</item>
+        <item>Singapore to United States</item>
+        <item>Singapore to Vietnam</item>
+        <item>South Africa to South Korea</item>
+        <item>South Africa to Spain</item>
+        <item>South Africa to Sweden</item>
+        <item>South Africa to Switzerland</item>
+        <item>South Africa to Thailand</item>
+        <item>South Africa to Turkey</item>
+        <item>South Africa to United Arab Emirates</item>
+        <item>South Africa to United States</item>
+        <item>South Africa to Vietnam</item>
+        <item>South Korea to Spain</item>
+        <item>South Korea to Sweden</item>
+        <item>South Korea to Switzerland</item>
+        <item>South Korea to Thailand</item>
+        <item>South Korea to Turkey</item>
+        <item>South Korea to United Arab Emirates</item>
+        <item>South Korea to United States</item>
+        <item>South Korea to Vietnam</item>
+        <item>Spain to Sweden</item>
+        <item>Spain to Switzerland</item>
+        <item>Spain to Thailand</item>
+        <item>Spain to Turkey</item>
+        <item>Spain to United Arab Emirates</item>
+        <item>Spain to United States</item>
+        <item>Spain to Vietnam</item>
+        <item>Sweden to Switzerland</item>
+        <item>Sweden to Thailand</item>
+        <item>Sweden to Turkey</item>
+        <item>Sweden to United Arab Emirates</item>
+        <item>Sweden to United States</item>
+        <item>Sweden to Vietnam</item>
+        <item>Switzerland to Thailand</item>
+        <item>Switzerland to Turkey</item>
+        <item>Switzerland to United Arab Emirates</item>
+        <item>Switzerland to United States</item>
+        <item>Switzerland to Vietnam</item>
+        <item>Thailand to Turkey</item>
+        <item>Thailand to United Arab Emirates</item>
+        <item>Thailand to United States</item>
+        <item>Thailand to Vietnam</item>
+        <item>Turkey to United Arab Emirates</item>
+        <item>Turkey to United States</item>
+        <item>Turkey to Vietnam</item>
+        <item>United Arab Emirates to United States</item>
+        <item>United Arab Emirates to Vietnam</item>
+        <item>United States to Vietnam</item>
+
+    </string-array>
+    <string-array name="time">
+        <item>13:03</item>
+        <item>17:02</item>
+        <item>15:36</item>
+        <item>22:43</item>
+        <item>07:01</item>
+        <item>18:57</item>
+        <item>07:59</item>
+        <item>17:51</item>
+        <item>10:47</item>
+        <item>06:57</item>
+        <item>10:03</item>
+        <item>14:37</item>
+        <item>17:34</item>
+        <item>16:12</item>
+        <item>13:28</item>
+        <item>23:16</item>
+        <item>15:36</item>
+        <item>13:10</item>
+        <item>13:37</item>
+        <item>08:19</item>
+        <item>07:33</item>
+        <item>12:51</item>
+        <item>23:41</item>
+        <item>19:52</item>
+        <item>07:44</item>
+        <item>22:31</item>
+        <item>04:00</item>
+        <item>05:38</item>
+        <item>14:46</item>
+        <item>22:29</item>
+        <item>01:25</item>
+        <item>00:44</item>
+        <item>05:00</item>
+        <item>15:16</item>
+        <item>23:21</item>
+        <item>04:00</item>
+        <item>11:30</item>
+        <item>14:42</item>
+        <item>13:44</item>
+        <item>17:13</item>
+        <item>09:23</item>
+        <item>08:45</item>
+        <item>14:24</item>
+        <item>11:20</item>
+        <item>06:34</item>
+        <item>10:01</item>
+        <item>00:36</item>
+        <item>11:04</item>
+        <item>07:28</item>
+        <item>21:12</item>
+        <item>11:26</item>
+        <item>01:15</item>
+        <item>04:50</item>
+        <item>18:52</item>
+        <item>12:34</item>
+        <item>10:46</item>
+        <item>00:56</item>
+        <item>00:55</item>
+        <item>10:09</item>
+        <item>09:40</item>
+        <item>08:05</item>
+        <item>17:29</item>
+        <item>09:09</item>
+        <item>07:56</item>
+        <item>20:00</item>
+        <item>16:38</item>
+        <item>04:11</item>
+        <item>11:25</item>
+        <item>17:30</item>
+        <item>09:53</item>
+        <item>11:22</item>
+        <item>20:50</item>
+        <item>18:59</item>
+        <item>20:33</item>
+        <item>14:55</item>
+        <item>19:38</item>
+        <item>20:03</item>
+        <item>05:18</item>
+        <item>04:08</item>
+        <item>21:49</item>
+        <item>17:18</item>
+        <item>18:01</item>
+        <item>22:38</item>
+        <item>07:06</item>
+        <item>20:08</item>
+        <item>10:55</item>
+        <item>18:06</item>
+        <item>12:57</item>
+        <item>11:25</item>
+        <item>16:11</item>
+        <item>14:58</item>
+        <item>03:26</item>
+        <item>21:51</item>
+        <item>15:30</item>
+        <item>19:22</item>
+        <item>01:46</item>
+        <item>15:36</item>
+        <item>17:10</item>
+        <item>11:02</item>
+        <item>08:16</item>
+        <item>08:22</item>
+        <item>02:59</item>
+        <item>08:21</item>
+        <item>20:56</item>
+        <item>17:56</item>
+        <item>06:44</item>
+        <item>10:05</item>
+        <item>10:03</item>
+        <item>18:00</item>
+        <item>09:13</item>
+        <item>04:40</item>
+        <item>00:13</item>
+        <item>13:49</item>
+        <item>13:49</item>
+        <item>09:33</item>
+        <item>23:20</item>
+        <item>23:13</item>
+        <item>00:12</item>
+        <item>00:45</item>
+        <item>11:59</item>
+        <item>07:34</item>
+        <item>03:52</item>
+        <item>08:40</item>
+        <item>05:19</item>
+        <item>11:06</item>
+        <item>14:36</item>
+        <item>23:35</item>
+        <item>10:34</item>
+        <item>05:29</item>
+        <item>12:24</item>
+        <item>06:55</item>
+        <item>14:46</item>
+        <item>06:45</item>
+        <item>08:52</item>
+        <item>21:57</item>
+        <item>00:01</item>
+        <item>02:32</item>
+        <item>08:15</item>
+        <item>20:58</item>
+        <item>04:07</item>
+        <item>12:33</item>
+        <item>10:27</item>
+        <item>10:54</item>
+        <item>10:43</item>
+        <item>08:09</item>
+        <item>17:21</item>
+        <item>09:25</item>
+        <item>18:03</item>
+        <item>01:14</item>
+        <item>21:23</item>
+        <item>17:35</item>
+        <item>18:29</item>
+        <item>22:19</item>
+        <item>20:45</item>
+        <item>12:24</item>
+        <item>21:34</item>
+        <item>11:42</item>
+        <item>03:31</item>
+        <item>00:17</item>
+        <item>03:17</item>
+        <item>05:36</item>
+        <item>22:27</item>
+        <item>14:57</item>
+        <item>09:51</item>
+        <item>09:23</item>
+        <item>04:01</item>
+        <item>00:35</item>
+        <item>04:09</item>
+        <item>03:42</item>
+        <item>17:27</item>
+        <item>12:19</item>
+        <item>11:39</item>
+        <item>16:08</item>
+        <item>09:44</item>
+        <item>14:46</item>
+        <item>11:31</item>
+        <item>04:03</item>
+        <item>13:07</item>
+        <item>19:28</item>
+        <item>00:12</item>
+        <item>05:59</item>
+        <item>01:28</item>
+        <item>01:02</item>
+        <item>18:24</item>
+        <item>22:00</item>
+        <item>09:28</item>
+        <item>18:06</item>
+        <item>10:11</item>
+        <item>02:59</item>
+        <item>00:08</item>
+        <item>02:14</item>
+        <item>16:03</item>
+        <item>14:48</item>
+        <item>22:21</item>
+        <item>22:20</item>
+        <item>00:33</item>
+        <item>21:33</item>
+        <item>02:09</item>
+        <item>19:46</item>
+        <item>07:21</item>
+        <item>07:56</item>
+        <item>02:16</item>
+        <item>05:46</item>
+        <item>09:58</item>
+        <item>06:20</item>
+        <item>03:25</item>
+        <item>13:11</item>
+        <item>21:01</item>
+        <item>00:54</item>
+        <item>07:46</item>
+        <item>19:07</item>
+        <item>17:37</item>
+        <item>18:03</item>
+        <item>04:39</item>
+        <item>13:51</item>
+        <item>02:22</item>
+        <item>05:13</item>
+        <item>06:07</item>
+        <item>11:46</item>
+        <item>13:30</item>
+        <item>19:13</item>
+        <item>11:23</item>
+        <item>23:09</item>
+        <item>07:57</item>
+        <item>08:51</item>
+        <item>21:17</item>
+        <item>06:08</item>
+        <item>23:02</item>
+        <item>02:56</item>
+        <item>22:01</item>
+        <item>20:17</item>
+        <item>18:55</item>
+        <item>04:50</item>
+        <item>09:16</item>
+        <item>11:22</item>
+        <item>16:04</item>
+        <item>05:57</item>
+        <item>07:33</item>
+        <item>06:21</item>
+        <item>05:23</item>
+        <item>06:30</item>
+        <item>01:20</item>
+        <item>07:46</item>
+        <item>14:25</item>
+        <item>10:33</item>
+        <item>02:37</item>
+        <item>01:05</item>
+        <item>05:22</item>
+        <item>17:09</item>
+        <item>08:46</item>
+        <item>19:57</item>
+        <item>22:57</item>
+        <item>02:45</item>
+        <item>12:37</item>
+        <item>23:40</item>
+        <item>15:41</item>
+        <item>06:24</item>
+        <item>09:26</item>
+        <item>18:11</item>
+        <item>17:25</item>
+        <item>14:10</item>
+        <item>10:55</item>
+        <item>04:43</item>
+        <item>01:56</item>
+        <item>06:07</item>
+        <item>01:48</item>
+        <item>08:15</item>
+        <item>11:51</item>
+        <item>21:56</item>
+        <item>19:24</item>
+        <item>11:50</item>
+        <item>18:52</item>
+        <item>14:39</item>
+        <item>10:50</item>
+        <item>06:34</item>
+        <item>11:05</item>
+        <item>16:38</item>
+        <item>13:11</item>
+        <item>20:32</item>
+        <item>21:53</item>
+        <item>23:49</item>
+        <item>16:17</item>
+        <item>04:51</item>
+        <item>08:28</item>
+        <item>21:25</item>
+        <item>09:21</item>
+        <item>18:11</item>
+        <item>11:54</item>
+        <item>05:08</item>
+        <item>12:57</item>
+        <item>11:23</item>
+        <item>00:37</item>
+        <item>06:53</item>
+        <item>16:01</item>
+        <item>05:34</item>
+        <item>22:50</item>
+        <item>23:58</item>
+        <item>08:40</item>
+        <item>05:43</item>
+        <item>18:42</item>
+        <item>13:28</item>
+        <item>02:46</item>
+        <item>01:27</item>
+        <item>07:46</item>
+        <item>11:07</item>
+        <item>22:21</item>
+        <item>14:40</item>
+        <item>18:45</item>
+        <item>11:13</item>
+        <item>13:23</item>
+        <item>04:51</item>
+        <item>01:47</item>
+        <item>04:01</item>
+        <item>15:59</item>
+        <item>00:19</item>
+        <item>12:28</item>
+        <item>18:42</item>
+        <item>20:47</item>
+        <item>17:32</item>
+        <item>04:35</item>
+        <item>15:06</item>
+        <item>05:48</item>
+        <item>01:07</item>
+        <item>14:53</item>
+        <item>05:13</item>
+        <item>06:36</item>
+        <item>01:08</item>
+        <item>21:59</item>
+        <item>15:37</item>
+        <item>19:13</item>
+        <item>08:53</item>
+        <item>20:54</item>
+        <item>05:46</item>
+        <item>11:07</item>
+        <item>13:06</item>
+        <item>05:17</item>
+        <item>16:40</item>
+        <item>06:59</item>
+        <item>12:20</item>
+        <item>23:50</item>
+        <item>14:34</item>
+        <item>10:09</item>
+        <item>21:17</item>
+        <item>20:28</item>
+        <item>11:38</item>
+        <item>11:09</item>
+        <item>08:16</item>
+        <item>07:38</item>
+        <item>22:12</item>
+        <item>14:32</item>
+        <item>15:45</item>
+        <item>02:10</item>
+        <item>22:05</item>
+        <item>02:17</item>
+        <item>03:05</item>
+        <item>23:50</item>
+        <item>14:43</item>
+        <item>06:35</item>
+        <item>02:07</item>
+        <item>10:16</item>
+        <item>14:32</item>
+        <item>15:20</item>
+        <item>18:28</item>
+        <item>21:43</item>
+        <item>00:51</item>
+        <item>11:43</item>
+        <item>13:52</item>
+        <item>12:11</item>
+        <item>21:01</item>
+        <item>15:59</item>
+        <item>20:13</item>
+        <item>03:08</item>
+        <item>19:21</item>
+        <item>14:17</item>
+        <item>21:51</item>
+        <item>09:14</item>
+        <item>14:17</item>
+        <item>12:05</item>
+        <item>11:27</item>
+        <item>06:09</item>
+        <item>14:13</item>
+        <item>13:03</item>
+        <item>00:39</item>
+        <item>01:06</item>
+        <item>18:19</item>
+        <item>22:27</item>
+        <item>03:42</item>
+        <item>00:14</item>
+        <item>00:15</item>
+        <item>08:38</item>
+        <item>12:22</item>
+        <item>21:28</item>
+        <item>05:24</item>
+        <item>17:03</item>
+        <item>23:37</item>
+        <item>07:19</item>
+        <item>12:13</item>
+        <item>21:36</item>
+        <item>08:26</item>
+        <item>23:45</item>
+        <item>18:13</item>
+        <item>04:10</item>
+        <item>21:53</item>
+        <item>01:43</item>
+        <item>00:52</item>
+        <item>18:47</item>
+        <item>04:20</item>
+        <item>07:29</item>
+        <item>23:45</item>
+        <item>10:54</item>
+        <item>19:19</item>
+        <item>06:11</item>
+        <item>19:47</item>
+        <item>17:10</item>
+        <item>04:34</item>
+        <item>10:20</item>
+        <item>10:42</item>
+        <item>13:46</item>
+        <item>20:43</item>
+        <item>06:23</item>
+        <item>11:10</item>
+        <item>07:09</item>
+        <item>17:39</item>
+        <item>06:39</item>
+        <item>03:00</item>
+        <item>17:23</item>
+        <item>18:28</item>
+        <item>00:06</item>
+        <item>05:18</item>
+        <item>09:10</item>
+        <item>20:08</item>
+        <item>16:03</item>
+        <item>20:08</item>
+        <item>01:46</item>
+        <item>01:07</item>
+        <item>16:17</item>
+        <item>12:10</item>
+        <item>11:04</item>
+        <item>01:48</item>
+        <item>01:28</item>
+        <item>03:08</item>
+        <item>16:58</item>
+        <item>12:07</item>
+        <item>20:24</item>
+        <item>07:52</item>
+        <item>02:10</item>
+        <item>13:05</item>
+        <item>04:46</item>
+        <item>10:34</item>
+        <item>05:42</item>
+        <item>12:59</item>
+        <item>18:27</item>
+        <item>02:05</item>
+        <item>20:30</item>
+        <item>03:28</item>
+        <item>22:18</item>
+        <item>03:09</item>
+        <item>23:11</item>
+        <item>12:13</item>
+        <item>06:43</item>
+        <item>04:04</item>
+        <item>14:22</item>
+        <item>02:11</item>
+        <item>23:15</item>
+        <item>06:29</item>
+        <item>02:50</item>
+        <item>17:02</item>
+        <item>03:40</item>
+        <item>10:38</item>
+        <item>00:43</item>
+        <item>10:31</item>
+        <item>07:36</item>
+        <item>20:43</item>
+        <item>23:21</item>
+        <item>09:24</item>
+        <item>01:22</item>
+        <item>10:58</item>
+        <item>18:18</item>
+        <item>23:25</item>
+        <item>02:17</item>
+        <item>10:56</item>
+        <item>08:39</item>
+        <item>20:05</item>
+        <item>04:22</item>
+        <item>09:24</item>
+        <item>17:37</item>
+        <item>21:24</item>
+        <item>15:50</item>
+        <item>09:31</item>
+        <item>07:07</item>
+        <item>12:14</item>
+        <item>00:47</item>
+        <item>19:13</item>
+        <item>01:25</item>
+        <item>02:31</item>
+        <item>14:39</item>
+        <item>03:08</item>
+        <item>12:51</item>
+        <item>18:14</item>
+        <item>21:49</item>
+        <item>04:45</item>
+        <item>11:38</item>
+        <item>04:58</item>
+        <item>12:29</item>
+        <item>12:52</item>
+        <item>10:33</item>
+        <item>06:55</item>
+        <item>08:51</item>
+        <item>07:56</item>
+        <item>02:26</item>
+        <item>09:51</item>
+        <item>12:50</item>
+        <item>14:19</item>
+        <item>22:50</item>
+        <item>05:46</item>
+        <item>21:38</item>
+        <item>19:10</item>
+        <item>14:52</item>
+        <item>01:39</item>
+        <item>12:29</item>
+        <item>02:06</item>
+        <item>11:23</item>
+        <item>13:11</item>
+        <item>18:25</item>
+        <item>15:13</item>
+        <item>02:34</item>
+        <item>13:38</item>
+        <item>12:48</item>
+        <item>00:49</item>
+        <item>18:50</item>
+        <item>18:03</item>
+        <item>21:27</item>
+        <item>18:18</item>
+        <item>03:02</item>
+        <item>14:25</item>
+        <item>17:07</item>
+        <item>13:27</item>
+        <item>13:15</item>
+        <item>15:15</item>
+        <item>22:41</item>
+        <item>05:39</item>
+        <item>19:01</item>
+        <item>16:10</item>
+        <item>09:57</item>
+        <item>04:42</item>
+        <item>17:30</item>
+        <item>04:57</item>
+        <item>11:30</item>
+        <item>00:16</item>
+        <item>03:01</item>
+        <item>03:24</item>
+        <item>14:11</item>
+        <item>15:59</item>
+        <item>13:13</item>
+        <item>20:19</item>
+        <item>06:25</item>
+        <item>10:04</item>
+        <item>20:45</item>
+        <item>10:46</item>
+        <item>21:38</item>
+        <item>10:27</item>
+        <item>05:24</item>
+        <item>08:55</item>
+        <item>17:37</item>
+        <item>20:58</item>
+        <item>01:31</item>
+        <item>19:01</item>
+        <item>01:15</item>
+        <item>03:02</item>
+        <item>10:57</item>
+        <item>06:56</item>
+        <item>16:26</item>
+        <item>06:31</item>
+        <item>17:01</item>
+        <item>05:15</item>
+        <item>00:18</item>
+        <item>02:04</item>
+        <item>18:31</item>
+        <item>03:22</item>
+        <item>11:08</item>
+        <item>16:56</item>
+        <item>15:41</item>
+        <item>05:13</item>
+        <item>12:25</item>
+        <item>06:31</item>
+        <item>09:54</item>
+        <item>12:26</item>
+        <item>21:44</item>
+        <item>04:27</item>
+        <item>09:55</item>
+        <item>23:29</item>
+        <item>15:50</item>
+        <item>13:10</item>
+        <item>01:27</item>
+        <item>05:41</item>
+        <item>07:45</item>
+        <item>05:30</item>
+        <item>19:17</item>
+        <item>12:27</item>
+        <item>11:53</item>
+        <item>16:18</item>
+        <item>01:45</item>
+        <item>06:15</item>
+        <item>19:50</item>
+        <item>08:59</item>
+        <item>09:52</item>
+        <item>22:30</item>
+        <item>12:16</item>
+        <item>07:55</item>
+        <item>11:54</item>
+        <item>03:29</item>
+        <item>10:20</item>
+        <item>15:27</item>
+        <item>01:47</item>
+        <item>22:28</item>
+        <item>18:24</item>
+        <item>15:21</item>
+        <item>05:17</item>
+        <item>22:31</item>
+        <item>23:58</item>
+        <item>05:13</item>
+        <item>08:02</item>
+        <item>15:50</item>
+        <item>20:57</item>
+        <item>20:57</item>
+        <item>19:12</item>
+        <item>10:35</item>
+        <item>21:42</item>
+        <item>11:47</item>
+        <item>05:08</item>
+        <item>15:57</item>
+        <item>15:36</item>
+        <item>03:40</item>
+        <item>11:51</item>
+        <item>18:03</item>
+        <item>20:29</item>
+        <item>12:17</item>
+        <item>03:20</item>
+        <item>17:47</item>
+        <item>09:06</item>
+        <item>18:41</item>
+        <item>04:24</item>
+        <item>05:44</item>
+        <item>13:46</item>
+        <item>10:24</item>
+        <item>01:07</item>
+        <item>11:30</item>
+        <item>02:54</item>
+        <item>07:05</item>
+        <item>19:12</item>
+        <item>09:02</item>
+        <item>12:38</item>
+        <item>17:28</item>
+        <item>00:43</item>
+        <item>02:10</item>
+        <item>08:29</item>
+        <item>06:49</item>
+        <item>19:45</item>
+        <item>02:24</item>
+        <item>18:33</item>
+        <item>20:17</item>
+        <item>18:02</item>
+        <item>06:26</item>
+        <item>04:01</item>
+        <item>10:08</item>
+        <item>11:40</item>
+        <item>00:16</item>
+        <item>16:01</item>
+        <item>01:02</item>
+        <item>11:37</item>
+        <item>00:32</item>
+        <item>00:50</item>
+        <item>10:52</item>
+        <item>09:21</item>
+        <item>15:58</item>
+        <item>07:31</item>
+        <item>19:25</item>
+        <item>02:09</item>
+        <item>17:17</item>
+        <item>17:34</item>
+        <item>07:53</item>
+        <item>22:52</item>
+        <item>22:34</item>
+        <item>15:50</item>
+        <item>15:04</item>
+        <item>23:10</item>
+        <item>06:17</item>
+        <item>09:07</item>
+        <item>03:10</item>
+        <item>10:44</item>
+        <item>00:56</item>
+        <item>22:39</item>
+        <item>10:30</item>
+        <item>19:28</item>
+        <item>05:28</item>
+        <item>21:01</item>
+        <item>06:44</item>
+        <item>06:46</item>
+        <item>04:26</item>
+        <item>16:06</item>
+        <item>17:31</item>
+        <item>06:55</item>
+        <item>06:17</item>
+        <item>06:37</item>
+        <item>14:56</item>
+        <item>06:38</item>
+        <item>14:17</item>
+        <item>20:32</item>
+        <item>18:10</item>
+        <item>03:18</item>
+        <item>09:31</item>
+        <item>15:18</item>
+        <item>21:49</item>
+        <item>07:31</item>
+        <item>08:06</item>
+        <item>11:19</item>
+        <item>22:56</item>
+        <item>15:27</item>
+        <item>02:13</item>
+        <item>10:36</item>
+        <item>19:45</item>
+        <item>15:29</item>
+        <item>06:52</item>
+        <item>15:40</item>
+        <item>20:31</item>
+        <item>13:27</item>
+        <item>12:29</item>
+        <item>12:01</item>
+        <item>16:53</item>
+        <item>10:37</item>
+        <item>10:51</item>
+        <item>09:24</item>
+        <item>04:34</item>
+        <item>21:46</item>
+        <item>20:02</item>
+        <item>05:27</item>
+        <item>19:31</item>
+        <item>01:37</item>
+        <item>18:32</item>
+        <item>23:49</item>
+        <item>02:50</item>
+        <item>13:51</item>
+        <item>17:14</item>
+        <item>15:03</item>
+        <item>08:50</item>
+        <item>16:52</item>
+        <item>17:43</item>
+        <item>02:00</item>
+        <item>01:22</item>
+        <item>10:57</item>
+        <item>04:38</item>
+        <item>15:38</item>
+        <item>05:53</item>
+        <item>20:29</item>
+        <item>13:51</item>
+        <item>17:00</item>
+        <item>20:01</item>
+        <item>19:34</item>
+        <item>08:09</item>
+        <item>02:49</item>
+        <item>14:59</item>
+        <item>11:44</item>
+        <item>11:35</item>
+        <item>06:35</item>
+        <item>00:31</item>
+        <item>14:50</item>
+        <item>14:03</item>
+        <item>07:04</item>
+        <item>00:19</item>
+        <item>18:10</item>
+        <item>15:01</item>
+        <item>02:57</item>
+        <item>20:04</item>
+        <item>20:07</item>
+        <item>18:23</item>
+        <item>18:17</item>
+        <item>15:44</item>
+        <item>06:14</item>
+        <item>22:51</item>
+        <item>05:49</item>
+        <item>20:03</item>
+        <item>08:47</item>
+        <item>11:23</item>
+        <item>19:16</item>
+        <item>13:05</item>
+        <item>06:52</item>
+        <item>05:54</item>
+        <item>23:29</item>
+        <item>17:18</item>
+        <item>18:13</item>
+        <item>13:53</item>
+        <item>05:02</item>
+        <item>10:49</item>
+        <item>02:36</item>
+        <item>10:53</item>
+        <item>13:32</item>
+        <item>11:13</item>
+        <item>01:35</item>
+        <item>21:12</item>
+        <item>23:39</item>
+        <item>14:52</item>
+        <item>01:39</item>
+        <item>20:40</item>
+        <item>12:59</item>
+        <item>19:39</item>
+        <item>01:01</item>
+        <item>09:32</item>
+        <item>23:37</item>
+        <item>05:51</item>
+        <item>17:02</item>
+        <item>12:54</item>
+        <item>07:58</item>
+        <item>11:50</item>
+        <item>22:08</item>
+        <item>09:29</item>
+        <item>18:05</item>
+        <item>23:33</item>
+        <item>08:37</item>
+        <item>14:43</item>
+        <item>18:14</item>
+        <item>18:11</item>
+        <item>19:58</item>
+        <item>00:01</item>
+        <item>05:53</item>
+        <item>19:15</item>
+        <item>12:57</item>
+        <item>04:32</item>
+        <item>01:30</item>
+        <item>02:45</item>
+        <item>09:40</item>
+        <item>19:57</item>
+        <item>09:06</item>
+        <item>19:38</item>
+        <item>17:50</item>
+        <item>07:04</item>
+        <item>07:56</item>
+        <item>16:08</item>
+        <item>02:18</item>
+        <item>03:29</item>
+        <item>08:24</item>
+        <item>04:02</item>
+        <item>18:33</item>
+        <item>04:55</item>
+        <item>20:34</item>
+        <item>10:03</item>
+        <item>23:30</item>
+        <item>15:21</item>
+        <item>18:12</item>
+        <item>23:47</item>
+        <item>21:28</item>
+        <item>20:00</item>
+        <item>15:24</item>
+        <item>04:49</item>
+        <item>14:38</item>
+        <item>14:58</item>
+        <item>08:13</item>
+        <item>14:12</item>
+        <item>18:00</item>
+        <item>19:05</item>
+        <item>17:33</item>
+        <item>09:52</item>
+        <item>00:51</item>
+        <item>12:31</item>
+        <item>02:35</item>
+        <item>21:45</item>
+        <item>15:11</item>
+        <item>18:24</item>
+        <item>21:38</item>
+        <item>13:18</item>
+        <item>16:06</item>
+        <item>07:23</item>
+        <item>18:28</item>
+        <item>06:14</item>
+        <item>13:49</item>
+        <item>16:13</item>
+        <item>13:25</item>
+        <item>23:50</item>
+        <item>05:09</item>
+        <item>09:01</item>
+        <item>23:02</item>
+        <item>13:30</item>
+        <item>19:28</item>
+        <item>05:31</item>
+        <item>01:53</item>
+        <item>04:36</item>
+        <item>05:54</item>
+        <item>08:09</item>
+        <item>13:11</item>
+        <item>03:17</item>
+        <item>01:01</item>
+        <item>10:16</item>
+        <item>15:42</item>
+        <item>21:00</item>
+        <item>22:18</item>
+        <item>18:17</item>
+        <item>21:10</item>
+        <item>03:56</item>
+        <item>13:32</item>
+        <item>03:05</item>
+        <item>19:57</item>
+        <item>07:03</item>
+        <item>00:15</item>
+        <item>00:29</item>
+        <item>20:02</item>
+        <item>15:36</item>
+        <item>02:33</item>
+        <item>14:13</item>
+        <item>23:55</item>
+        <item>19:39</item>
+        <item>21:12</item>
+        <item>12:26</item>
+        <item>01:31</item>
+        <item>13:26</item>
+        <item>12:35</item>
+        <item>16:44</item>
+        <item>19:50</item>
+        <item>18:00</item>
+        <item>20:17</item>
+        <item>14:44</item>
+        <item>19:16</item>
+        <item>11:27</item>
+        <item>15:34</item>
+        <item>08:23</item>
+        <item>18:45</item>
+        <item>22:44</item>
+        <item>06:23</item>
+        <item>20:46</item>
+        <item>03:56</item>
+        <item>06:07</item>
+        <item>06:59</item>
+        <item>03:02</item>
+        <item>03:42</item>
+        <item>02:20</item>
+        <item>16:03</item>
+        <item>14:14</item>
+        <item>03:11</item>
+        <item>15:05</item>
+        <item>17:39</item>
+        <item>22:28</item>
+        <item>22:23</item>
+        <item>15:10</item>
+        <item>01:54</item>
+        <item>21:23</item>
+        <item>01:34</item>
+        <item>19:54</item>
+        <item>15:08</item>
+        <item>21:00</item>
+        <item>12:03</item>
+        <item>20:58</item>
+        <item>00:27</item>
+        <item>09:52</item>
+        <item>12:35</item>
+        <item>18:22</item>
+        <item>18:54</item>
+        <item>12:28</item>
+        <item>15:51</item>
+        <item>23:05</item>
+        <item>00:26</item>
+        <item>03:02</item>
+        <item>14:50</item>
+        <item>12:21</item>
+        <item>07:21</item>
+        <item>11:02</item>
+        <item>11:54</item>
+        <item>00:04</item>
+        <item>00:01</item>
+        <item>03:45</item>
+        <item>08:05</item>
+        <item>17:49</item>
+        <item>21:54</item>
+        <item>19:24</item>
+        <item>10:19</item>
+        <item>10:41</item>
+        <item>13:15</item>
+        <item>02:39</item>
+        <item>22:46</item>
+        <item>00:08</item>
+        <item>08:07</item>
+        <item>09:30</item>
+        <item>16:43</item>
+        <item>19:35</item>
+        <item>13:28</item>
+        <item>15:24</item>
+        <item>15:57</item>
+        <item>02:35</item>
+        <item>11:13</item>
+        <item>01:02</item>
+        <item>22:46</item>
+        <item>23:34</item>
+        <item>08:50</item>
+        <item>03:22</item>
+        <item>07:06</item>
+        <item>18:09</item>
+        <item>19:49</item>
+        <item>16:49</item>
+        <item>18:29</item>
+        <item>12:19</item>
+        <item>10:12</item>
+        <item>12:07</item>
+        <item>01:52</item>
+        <item>14:01</item>
+        <item>15:48</item>
+        <item>14:57</item>
+        <item>04:12</item>
+        <item>13:19</item>
+        <item>22:06</item>
+        <item>23:29</item>
+        <item>04:06</item>
+        <item>16:22</item>
+        <item>22:53</item>
+        <item>09:13</item>
+        <item>06:09</item>
+    </string-array>
+
+
+</resources>
