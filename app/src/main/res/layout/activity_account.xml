@@ -4,9 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/template10"
+    android:background="@drawable/rox"
     tools:context=".account">
-
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Menu"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:letterSpacing="-.03"
+            android:textColor="@color/white"
+            android:fontFamily="monospace"
+            android:textStyle="bold"/>
+    </LinearLayout>
     <GridLayout
         android:id="@+id/gridView"
         android:layout_width="match_parent"
@@ -14,7 +31,7 @@
         android:layout_marginBottom="25dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="70dp"
         android:columnCount="2"
         android:rowCount="3"
         android:layout_alignParentStart="true">
@@ -28,7 +45,7 @@
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:cardBackgroundColor="#50808080"
+            app:cardBackgroundColor="#20808080"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -69,7 +86,7 @@
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:cardBackgroundColor="#50808080"
+            app:cardBackgroundColor="#20808080"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -110,7 +127,7 @@
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:cardBackgroundColor="#50808080"
+            app:cardBackgroundColor="#20808080"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -151,7 +168,7 @@
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:cardBackgroundColor="#50808080"
+            app:cardBackgroundColor="#20808080"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -186,11 +203,11 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_row="2"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_gravity="fill"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                app:cardBackgroundColor="#50808080"
+                app:cardBackgroundColor="#20808080"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp"
                 app:cardUseCompatPadding="true">

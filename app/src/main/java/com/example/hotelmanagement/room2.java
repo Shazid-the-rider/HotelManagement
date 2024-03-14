@@ -62,12 +62,13 @@ public class room2 extends AppCompatActivity {
             public void onClick(View v) {
                 SharedPreferences sf = getSharedPreferences("sp", MODE_PRIVATE);
                 String username = sf.getString("username", "").toString();
+                String usercode = sf.getString("usercode", "").toString();
                 Database db = new Database(getApplicationContext(), "Hotel", null, 1);
-                if (db.CheckBookRoom(username, values, country) == 1) {
+                if (db.CheckBookRoom(usercode, values, country) == 1) {
                     Toast.makeText(room2.this, "Booking Already Complete", Toast.LENGTH_SHORT).show();
                 } else {
                     z = Float.parseFloat(Hom[x]);
-                    db.book(username, values, z, country, "Hotel");
+                    db.book(username,usercode, values, z, country, "Hotel");
                     Toast.makeText(room2.this, "Booking Successful and created table", Toast.LENGTH_SHORT).show();
 
                 }
@@ -79,9 +80,10 @@ public class room2 extends AppCompatActivity {
             public void onClick(View v) {
                 SharedPreferences sf = getSharedPreferences("sp", MODE_PRIVATE);
                 String username = sf.getString("username", "").toString();
+                String usercode = sf.getString("usercode", "").toString();
                 Database db = new Database(getApplicationContext(), "Hotel", null, 1);
-                if (db.CheckBookRoom(username, values, country) == 1) {
-                    db.RemoveBook(username, values, country, "Hotel");
+                if (db.CheckBookRoom(usercode, values, country) == 1) {
+                    db.RemoveBook(usercode, values, country, "Hotel");
                     Toast.makeText(room2.this, "Remove Booking Complete", Toast.LENGTH_SHORT).show();
                 } else {
 

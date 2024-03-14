@@ -24,10 +24,11 @@ public class usertour extends AppCompatActivity {
         setContentView(R.layout.activity_usertour);
         SharedPreferences sf = getSharedPreferences("sp", MODE_PRIVATE);
         String username = sf.getString("username", "").toString();
+        String usercode = sf.getString("usercode", "").toString();
         Database db = new Database(getApplicationContext(), "Hotel", null, 1);
         recyclerView = (RecyclerView) findViewById(R.id.recyclerviewid);
-        ArrayList<String> dbdata = db.getcartinfo9(username);
-        ArrayList<Float> dbdata1 = db.getcartinfo10(username);
+        ArrayList<String> dbdata = db.getcartinfo9(usercode);
+        ArrayList<Float> dbdata1 = db.getcartinfo10(usercode);
 
 
         if (dbdata.isEmpty() || dbdata1.isEmpty()) {

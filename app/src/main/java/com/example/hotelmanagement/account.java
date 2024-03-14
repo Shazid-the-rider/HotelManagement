@@ -32,10 +32,11 @@ public class account extends AppCompatActivity {
             public void onClick(View v) {
                 SharedPreferences sf = getSharedPreferences("sp", MODE_PRIVATE);
                 String username = sf.getString("username", "");
+                String usercode = sf.getString("usercode", "");
                 Database db = new Database(getApplicationContext(), "Hotel", null, 1);
                 String Email;
                 String Password;
-                ArrayList dbdata = db.getuserinfo(username);
+                ArrayList dbdata = db.getuserinfo(usercode);
                 String x = dbdata.get(0).toString();
                 String y = dbdata.get(1).toString();
                 Intent intent = new Intent(account.this, userinformation.class);

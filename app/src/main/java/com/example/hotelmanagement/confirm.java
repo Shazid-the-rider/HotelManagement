@@ -78,14 +78,15 @@ public class confirm extends AppCompatActivity {
                     Toast.makeText(confirm.this, "invalid amount!please enter an amount ", Toast.LENGTH_SHORT).show();
                 } else {
                     SharedPreferences sf = getSharedPreferences("sp", MODE_PRIVATE);
+                    String usercode = sf.getString("usercode", "").toString();
                     String username = sf.getString("username", "").toString();
                     float price = x;
                     Database db = new Database(getApplicationContext(), "Hotel", null, 1);
-                    if (db.CheckCartItem(username, values) == 1) {
+                    if (db.CheckCartItem(usercode, values) == 1) {
                         Toast.makeText(confirm.this, "Product already added to cart", Toast.LENGTH_SHORT).show();
                     } else {
 
-                        db.AddCart(username, values, price, values2);
+                        db.AddCart(username,usercode, values, price, values2);
                         Toast.makeText(confirm.this, "Cart Added Successful and created table", Toast.LENGTH_SHORT).show();
 
                     }
@@ -99,10 +100,11 @@ public class confirm extends AppCompatActivity {
             public void onClick(View v) {
                 SharedPreferences sf = getSharedPreferences("sp", MODE_PRIVATE);
                 String username = sf.getString("username", "").toString();
+                String usercode = sf.getString("usercode", "").toString();
                 float price = x;
                 Database db = new Database(getApplicationContext(), "Hotel", null, 1);
-                if (db.CheckCartItem(username, values) == 1) {
-                    db.RemoveCart(username, values, values2);
+                if (db.CheckCartItem(usercode, values) == 1) {
+                    db.RemoveCart(usercode, values, values2);
                     Toast.makeText(confirm.this, "Product successfully removed from cart", Toast.LENGTH_SHORT).show();
                 } else {
 

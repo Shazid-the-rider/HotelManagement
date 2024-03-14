@@ -35,10 +35,12 @@ public class loginpage extends AppCompatActivity {
                     Toast.makeText(loginpage.this, "Information Missing", Toast.LENGTH_SHORT).show();
                 } else {
                     if (db.signIn(name, password) == 1) {
-                        Toast.makeText(loginpage.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                        String code=db.getusercode(name);
+                        Toast.makeText(loginpage.this, "Login Successful"+code, Toast.LENGTH_SHORT).show();
                         SharedPreferences sf = getSharedPreferences("sp", MODE_PRIVATE);
                         SharedPreferences.Editor editor = sf.edit();
                         editor.putString("username", name);
+                        editor.putString("usercode",code);
                         editor.apply();
                         startActivity(new Intent(loginpage.this, homepage.class));
                     } else {

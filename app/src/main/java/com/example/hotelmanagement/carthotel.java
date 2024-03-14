@@ -24,11 +24,12 @@ public class carthotel extends AppCompatActivity {
         setContentView(R.layout.activity_carthotel);
         SharedPreferences sf = getSharedPreferences("sp", MODE_PRIVATE);
         String username = sf.getString("username", "").toString();
+        String usercode = sf.getString("usercode", "").toString();
         Database db = new Database(getApplicationContext(), "Hotel", null, 1);
         recyclerView = (RecyclerView) findViewById(R.id.recyclerviewid);
-        ArrayList<String> dbdata = db.getcartinfo3(username);
-        ArrayList<Float> dbdata1 = db.getcartinfo4(username);
-        ArrayList<String> dbdata2 = db.getcartinfo5(username);
+        ArrayList<String> dbdata = db.getcartinfo3(usercode);
+        ArrayList<Float> dbdata1 = db.getcartinfo4(usercode);
+        ArrayList<String> dbdata2 = db.getcartinfo5(usercode);
 
         if (dbdata.isEmpty() || dbdata1.isEmpty() || dbdata2.isEmpty()) {
             Toast.makeText(this, "No carted items found", Toast.LENGTH_SHORT).show();

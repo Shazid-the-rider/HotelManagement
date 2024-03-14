@@ -124,14 +124,15 @@ public class flightbook extends AppCompatActivity {
                 } else {
                     SharedPreferences sf = getSharedPreferences("sp", MODE_PRIVATE);
                     String username = sf.getString("username", "").toString();
+                    String usercode = sf.getString("usercode", "").toString();
                     String email = edit2.getText().toString();
                     String Date = txt6.getText().toString();
                     Database db = new Database(getApplicationContext(), "Hotel", null, 1);
-                    if (db.checkFlight(username, email, values, Date) == 1) {
+                    if (db.checkFlight(usercode, email, values, Date) == 1) {
                         Toast.makeText(flightbook.this, "flight already booked", Toast.LENGTH_SHORT).show();
                     } else {
 
-                        db.Add_flight(username, email, values, amount, Date, "Flight");
+                        db.Add_flight(username,usercode, email, values, amount, Date, "Flight");
                         Toast.makeText(flightbook.this, "Flight successfully booked", Toast.LENGTH_SHORT).show();
 
                     }
@@ -150,9 +151,10 @@ public class flightbook extends AppCompatActivity {
                 String Date = txt6.getText().toString();
                 SharedPreferences sf = getSharedPreferences("sp", MODE_PRIVATE);
                 String username = sf.getString("username", "").toString();
+                String usercode = sf.getString("usercode", "").toString();
                 Database db = new Database(getApplicationContext(), "Hotel", null, 1);
-                if (db.checkFlight(username, email, values, Date) == 1) {
-                    db.remove_flight(username, values, Date);
+                if (db.checkFlight(usercode, email, values, Date) == 1) {
+                    db.remove_flight(usercode, values, Date);
                     Toast.makeText(flightbook.this, "Remove Booking Complete", Toast.LENGTH_SHORT).show();
                 } else {
 

@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.UUID;
+
 
 public class signuppage extends AppCompatActivity {
     private EditText usernAme, eMail, paSsword, conFirmpassword;
@@ -38,6 +40,8 @@ public class signuppage extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                UUID uniqueId = UUID.randomUUID();
+                String usercode= uniqueId.toString();
                 String name = usernAme.getText().toString();
                 String email = eMail.getText().toString();
                 String password = paSsword.getText().toString();
@@ -48,9 +52,11 @@ public class signuppage extends AppCompatActivity {
                 } else {
                     if (password.compareTo(cpassword) == 0) {
                         if (isValid(password)) {
-                            db.register(name, email, password);
+                            db.register(name,usercode, email, password);
                             Toast.makeText(signuppage.this, "Signup successful", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(signuppage.this, loginpage.class));
+                            Intent intent = new Intent(signuppage.this, loginpage.class);
+                            intent.putExtra("key", usercode);
+                            startActivity(intent);
                         } else {
                             Toast.makeText(signuppage.this, "Password must be contained Character,Number and Syntax ", Toast.LENGTH_SHORT).show();
                         }

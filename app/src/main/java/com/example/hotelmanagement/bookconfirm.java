@@ -37,6 +37,7 @@ public class bookconfirm extends AppCompatActivity {
         z = Float.parseFloat(values1);
         SharedPreferences sf = getSharedPreferences("sp", MODE_PRIVATE);
         String username = sf.getString("username", "").toString();
+        String usercode = sf.getString("usercode", "").toString();
         txt1.setText(username);
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,10 +48,10 @@ public class bookconfirm extends AppCompatActivity {
                 } else {
                     //String username, String email, float price, String Otype
                     Database db = new Database(getApplicationContext(), "Hotel", null, 1);
-                    if (db.CheckTourItem(username, values) == 1) {
+                    if (db.CheckTourItem(usercode, values) == 1) {
                         Toast.makeText(bookconfirm.this, "Book already done", Toast.LENGTH_SHORT).show();
                     } else {
-                        db.booktour(username, st, z, values);
+                        db.booktour(username,usercode ,st, z, values);
                         Toast.makeText(bookconfirm.this, "Book successfully completed", Toast.LENGTH_SHORT).show();
                     }
                 }
@@ -62,9 +63,10 @@ public class bookconfirm extends AppCompatActivity {
             public void onClick(View v) {
                 SharedPreferences sf = getSharedPreferences("sp", MODE_PRIVATE);
                 String username = sf.getString("username", "").toString();
+                String usercode = sf.getString("usercode", "").toString();
                 Database db = new Database(getApplicationContext(), "Hotel", null, 1);
-                if (db.CheckTourItem(username, values) == 1) {
-                    db.RemoveTourCart(username, values);
+                if (db.CheckTourItem(usercode, values) == 1) {
+                    db.RemoveTourCart(usercode, values);
                     Toast.makeText(bookconfirm.this, "Book Cancel done", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(bookconfirm.this, "Book never done", Toast.LENGTH_SHORT).show();
