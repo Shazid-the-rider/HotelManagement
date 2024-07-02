@@ -72,6 +72,7 @@
 
     <EditText
         android:id="@+id/LoginPasswordid"
+        style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
         android:layout_width="337dp"
         android:layout_height="52dp"
         android:background="@drawable/inputbackgroundshape"
@@ -80,6 +81,7 @@
         android:ems="10"
         android:fontFamily="monospace"
         android:hint="Password"
+        android:imeOptions="actionDone"
         android:inputType="textPassword"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"

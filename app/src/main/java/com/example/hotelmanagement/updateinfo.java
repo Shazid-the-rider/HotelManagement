@@ -24,7 +24,6 @@ public class updateinfo extends AppCompatActivity {
         txt1 = (EditText) findViewById(R.id.signupUserNameid);
         txt2 = (EditText) findViewById(R.id.signupUserNameid1);
         txt3 = (EditText) findViewById(R.id.signupEmailid);
-        txt4 = (EditText) findViewById(R.id.signupEmailid1);
         txt5 = (EditText) findViewById(R.id.signupPasswordid2);
         txt6 = (EditText) findViewById(R.id.signupPasswordid);
         bt1 = (Button) findViewById(R.id.signupbuttonid);
@@ -40,11 +39,9 @@ public class updateinfo extends AppCompatActivity {
             public void onClick(View v) {
                 String a = txt1.getText().toString();//present name
                 String b = txt2.getText().toString();//new name
-                String c = txt3.getText().toString();//present mail
-                String d = txt4.getText().toString();//new mail
                 String e = txt5.getText().toString();//present pass
                 String f = txt6.getText().toString();//new pass
-                boolean updated = db.updateUserInfo(a, b, c, d, e, f);
+                boolean updated = db.updateUserInfo(a,b,e, f);
                 if (updated) {
                     Toast.makeText(updateinfo.this, "Information updated successfully", Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(updateinfo.this, loginpage.class));

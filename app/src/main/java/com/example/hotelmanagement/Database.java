@@ -56,7 +56,7 @@ public class Database extends SQLiteOpenHelper {
         str[0] = username;
         str[1] = password;
         SQLiteDatabase db = getReadableDatabase();
-        Cursor c = db.rawQuery("select * from Users where username=? and password=?", str);
+        Cursor c = db.rawQuery("select * from Users where username =? and password=?", str);
         if (c.moveToFirst()) {
             return 1;
         } else {
@@ -252,6 +252,21 @@ public class Database extends SQLiteOpenHelper {
         }
         db.close();
         return arr;
+    }
+    public String getusername(String email)
+    {
+        String s=null;
+        SQLiteDatabase db = getReadableDatabase();
+        String str[] = new String[1];
+        str[0] = email;
+        Cursor c = db.rawQuery("select *from Users where email=?", str);
+        if(c.moveToFirst()){
+            do{
+                s=c.getString(0);
+            }while (c.moveToNext());
+        }
+        db.close();
+        return s;
     }
     public String getusercode(String username)
     {
@@ -565,14 +580,13 @@ public class Database extends SQLiteOpenHelper {
         return usersWithProducts;
     }
 
-    public boolean updateUserInfo(String currentUsername, String newUsername, String currentEmail, String newEmail, String currentPassword, String newPassword) {
+    public boolean updateUserInfo(String currentUsername, String newUsername, String currentPassword, String newPassword) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put("username", newUsername);
-        values.put("email", newEmail);
         values.put("password", newPassword);
-        String[] whereArgs = {currentUsername, currentEmail, currentPassword};
-        int rowsAffected = db.update("Users", values, "username=? AND email=? AND password=?", whereArgs);
+        String[] whereArgs = {currentUsername, currentPassword};
+        int rowsAffected = db.update("Users", values, "username=? AND password=?", whereArgs);
         db.close();
         return rowsAffected > 0;
     }

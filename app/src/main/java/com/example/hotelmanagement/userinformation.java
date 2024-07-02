@@ -25,14 +25,12 @@ public class userinformation extends AppCompatActivity {
         tl = (TableLayout) findViewById(R.id.table);
         tr1 = (TableRow) findViewById(R.id.titleid);
         tr2 = (TableRow) findViewById(R.id.name_title);
-        tr3 = (TableRow) findViewById(R.id.key_title);
         txt1 = (TextView) findViewById(R.id.textview1);
         txt2 = (TextView) findViewById(R.id.textview2);
         txt3 = (TextView) findViewById(R.id.textview3);
         txt4 = (TextView) findViewById(R.id.textview4);
         txt5 = (TextView) findViewById(R.id.textview5);
-        txt6 = (TextView) findViewById(R.id.textview6);
-        txt7 = (TextView) findViewById(R.id.textview7);
+
         Bundle bundle = getIntent().getExtras();
         SharedPreferences sf = getSharedPreferences("sp", MODE_PRIVATE);
         String username = sf.getString("username", "");
@@ -46,7 +44,6 @@ public class userinformation extends AppCompatActivity {
             // Set text for TextViews
             txt3.setText(username);
             txt5.setText(values);
-            txt7.setText(values1);
         } else {
             Log.e("UserInformationActivity", "Bundle is null");
         }
