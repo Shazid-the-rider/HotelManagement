@@ -24,13 +24,13 @@
 
         android:layout_marginTop="20dp"
         android:id="@+id/list_item"
-        android:listSelector="@color/random"
+        android:listSelector="#470707"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="#FFFFFF"
-        android:dividerHeight="2dp"
+        android:dividerHeight="1dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/custom4"
+        android:background="#56320B0B"
 
         />
 

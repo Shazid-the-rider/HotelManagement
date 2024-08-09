@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_height="wrap_content"
     android:layout_marginBottom="20dp"
-    android:background="@color/black">
+    android:background="#03123E">
 
     <TextView
         android:paddingTop="10dp"
@@ -12,9 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
-        android:fontFamily="monospace"
+        android:fontFamily="@font/roboto"
         android:textStyle="bold"
-        android:letterSpacing="-.03"
         android:paddingBottom="10dp"
         android:textColor="@color/white"
         android:background="@drawable/tablelay"
@@ -31,12 +30,11 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:fontFamily="monospace"
+            android:fontFamily="@font/roboto"
             android:textStyle="bold"
             android:gravity="center"
             android:paddingBottom="10dp"
             android:textColor="@color/white"
-            android:letterSpacing="-.03"
             android:background="@drawable/tablelay"
             />
 
@@ -47,11 +45,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:fontFamily="monospace"
+            android:fontFamily="@font/roboto"
             android:textStyle="bold"
             android:gravity="center"
             android:paddingBottom="10dp"
-            android:letterSpacing="-.03"
             android:textColor="@color/white"
             android:background="@drawable/tablelay"
             />

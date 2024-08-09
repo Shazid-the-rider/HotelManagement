@@ -8,7 +8,7 @@
     android:paddingRight="10dp"
     android:paddingBottom="10dp"
     android:orientation="vertical"
-    android:background="@drawable/fox"
+    android:background="@drawable/rip"
     tools:context=".lunch">
 
 
@@ -26,10 +26,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/custom4"
+        android:background="#25474744"
         android:divider="#FFFFFF"
-        android:dividerHeight="2dp"
-        android:listSelector="@color/random" />
+        android:dividerHeight="1dp"
+        android:listSelector="#032522" />
 
 </LinearLayout>

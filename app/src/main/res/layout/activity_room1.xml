@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:background="@drawable/inputbackgroundshape"
+            android:background="#652C2828"
             android:iconifiedByDefault="false"
             android:textColor="@color/white"
             android:queryHint="Search..." />
@@ -43,8 +43,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_marginTop="10dp"
-        android:listSelector="#005F6C"
+        android:listSelector="#C4441461"
         android:divider="#FFFFFF"
-        android:dividerHeight="2dp"
-        android:background="@drawable/custom4"/>
+        android:dividerHeight="1dp"
+        />
 </LinearLayout>

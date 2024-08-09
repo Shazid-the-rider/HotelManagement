@@ -26,9 +26,9 @@
         android:layout_height="match_parent"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/custom4"
         android:divider="#FFFFFF"
-        android:dividerHeight="2dp"
-        android:listSelector="@color/random" />
+        android:dividerHeight="1dp"
+        android:listSelector="#0B3865"
+        android:background="#72125631"/>
 
 </LinearLayout>

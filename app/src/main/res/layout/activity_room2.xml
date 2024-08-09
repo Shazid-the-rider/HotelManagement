@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".room2"
     android:padding="10dp"
-    android:background="@color/black">
+    android:background="#022522">
 
 
     <ImageView
@@ -17,19 +17,19 @@
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="@+id/textView1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.142" />
+        app:layout_constraintVertical_bias="0.164" />
 
     <TextView
 
         android:id="@+id/textView1"
         android:layout_width="match_parent"
-        android:layout_height="235dp"
+        android:layout_height="230dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:fontFamily="monospace"
+        android:fontFamily="@font/roboto"
         android:justificationMode="inter_word"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
@@ -46,7 +46,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="monospace"
+        android:fontFamily="@font/roboto"
         android:padding="5dp"
         android:gravity="center_horizontal"
         android:textColor="#56E100"
@@ -61,45 +61,45 @@
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="300dp"
+        android:layout_width="337dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/inputbackgroundshape"
+        android:backgroundTint="#18888C"
+        android:fontFamily="@font/roboto"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:text="Book now"
-        android:fontFamily="monospace"
-        android:textStyle="bold"
         android:textSize="18sp"
-        android:padding="5dp"
-        android:letterSpacing="-0.05"
+        android:textAllCaps="true"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9" />
+        app:layout_constraintVertical_bias="0.88" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="300dp"
+        android:layout_width="337dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/inputbackgroundshape"
+        android:backgroundTint="#79109F"
+        android:fontFamily="@font/roboto"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:text="Remove From Cart"
-        android:fontFamily="monospace"
-        android:textStyle="bold"
-        android:padding="5dp"
         android:textSize="18sp"
-        android:letterSpacing="-0.05"
+        android:textAllCaps="true"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
+        app:layout_constraintVertical_bias="0.972" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="monospace"
+        android:fontFamily="@font/roboto"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -120,6 +120,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        android:background="@color/black"
+        android:background="#00909090"
         app:srcCompat="@drawable/baseline_arrow_back_ios_new_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>

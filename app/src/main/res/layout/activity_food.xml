@@ -32,7 +32,7 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#50808080"
+            app:cardBackgroundColor="#400336"
             app:cardCornerRadius="16dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -55,8 +55,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Desert"
-                    android:fontFamily="monospace"
-                    android:textSize="20sp"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="25sp"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
@@ -74,7 +74,7 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#50808080"
+            app:cardBackgroundColor="#102D49"
             app:cardCornerRadius="16dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -100,8 +100,8 @@
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textStyle="bold"
-                    android:fontFamily="monospace"
-                    android:textSize="20sp"/>
+                    android:fontFamily="@font/roboto"
+                    android:textSize="25sp"/>
 
             </LinearLayout>
 
@@ -116,7 +116,7 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#50808080"
+            app:cardBackgroundColor="#1B500D"
             app:cardCornerRadius="16dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -140,8 +140,8 @@
                     android:layout_height="wrap_content"
                     android:text="Rice"
                     android:textAlignment="center"
-                    android:fontFamily="monospace"
-                    android:textSize="20sp"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="25sp"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
 
@@ -158,7 +158,7 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#50808080"
+            app:cardBackgroundColor="#613813"
             app:cardCornerRadius="16dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -182,8 +182,8 @@
                     android:layout_height="wrap_content"
                     android:text="Back"
                     android:textAlignment="center"
-                    android:fontFamily="monospace"
-                    android:textSize="20sp"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="25sp"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
 

@@ -8,7 +8,7 @@
     android:paddingRight="10dp"
     android:paddingBottom="10dp"
     android:orientation="vertical"
-    android:background="@drawable/hellosee"
+    android:background="@drawable/s"
     tools:context=".room">
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,13 +24,13 @@
             android:background="@drawable/baseline_arrow_back_ios_new_24" />
 
         <androidx.appcompat.widget.SearchView
-            android:hint="search..."
             android:id="@+id/searchView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:background="@drawable/inputbackgroundshape"
+            android:background="#4D0E1C2B"
+            android:hint="search..."
             android:iconifiedByDefault="false"
             android:queryHint="Search..."
             app:searchIcon="@drawable/baseline_search_24"
@@ -43,12 +43,12 @@
 
         android:layout_marginTop="20dp"
         android:id="@+id/list_item"
-        android:listSelector="@color/random"
+        android:listSelector="#050C51"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="#FFFFFF"
-        android:dividerHeight="2dp"
-        android:background="@drawable/custom4"
+        android:dividerHeight="1dp"
+
         />
 
 </LinearLayout>

@@ -6,29 +6,13 @@
     android:layout_height="match_parent"
     android:background="@drawable/d"
     tools:context=".homepage">
-    <LinearLayout
-        android:layout_marginTop="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginBottom="20dp">
-        <TextView
-            android:padding="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Home Menu"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:textColor="@color/white"
-            android:fontFamily="monospace"
-            android:textStyle="bold"/>
-    </LinearLayout>
+
 
     <GridLayout
         android:layout_marginBottom="25dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="25dp"
         android:id="@+id/gridView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -48,7 +32,7 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#20808080"
+            app:cardBackgroundColor="#051759"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -69,7 +53,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="monospace"
+                    android:fontFamily="@font/roboto"
                     android:text="Admin"
                     android:textAlignment="center"
                     android:textColor="@color/white"
@@ -89,7 +73,7 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#20808080"
+            app:cardBackgroundColor="#063135"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -114,7 +98,7 @@
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textStyle="bold"
-                    android:fontFamily="monospace"
+                    android:fontFamily="@font/roboto"
                     android:textSize="20sp"/>
 
             </LinearLayout>
@@ -130,7 +114,7 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#20808080"
+            app:cardBackgroundColor="#0B500E"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -153,7 +137,7 @@
                     android:layout_height="wrap_content"
                     android:text="Food"
                     android:textAlignment="center"
-                    android:fontFamily="monospace"
+                    android:fontFamily="@font/roboto"
                     android:textSize="20sp"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
@@ -171,7 +155,7 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#20808080"
+            app:cardBackgroundColor="#4E0453"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -194,7 +178,7 @@
                     android:layout_height="wrap_content"
                     android:text="Flight"
                     android:textAlignment="center"
-                    android:fontFamily="monospace"
+                    android:fontFamily="@font/roboto"
                     android:textSize="20sp"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
@@ -212,7 +196,7 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#20808080"
+            app:cardBackgroundColor="#085C55"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -235,7 +219,7 @@
                     android:layout_height="wrap_content"
                     android:text="Tour"
                     android:textAlignment="center"
-                    android:fontFamily="monospace"
+                    android:fontFamily="@font/roboto"
                     android:textSize="20sp"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
@@ -253,7 +237,7 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#20808080"
+            app:cardBackgroundColor="#716704"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -276,7 +260,7 @@
                     android:layout_height="wrap_content"
                     android:text="Profile"
                     android:textAlignment="center"
-                    android:fontFamily="monospace"
+                    android:fontFamily="@font/roboto"
                     android:textSize="20sp"
                     android:textColor="@color/white"
                     android:textStyle="bold" />

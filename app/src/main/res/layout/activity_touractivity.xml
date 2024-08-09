@@ -32,7 +32,7 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#50808080"
+            app:cardBackgroundColor="#A60C0C"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -53,7 +53,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="monospace"
+                    android:fontFamily="@font/roboto"
                     android:text="Paragliding"
                     android:textAlignment="center"
                     android:textColor="@color/white"
@@ -73,7 +73,7 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#50808080"
+            app:cardBackgroundColor="#1830A6"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -98,7 +98,7 @@
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textStyle="bold"
-                    android:fontFamily="monospace"
+                    android:fontFamily="@font/roboto"
                     android:textSize="20sp"/>
 
             </LinearLayout>
@@ -114,7 +114,7 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#50808080"
+            app:cardBackgroundColor="#33322B"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -137,7 +137,7 @@
                     android:layout_height="wrap_content"
                     android:text="Movie"
                     android:textAlignment="center"
-                    android:fontFamily="monospace"
+                    android:fontFamily="@font/roboto"
                     android:textSize="20sp"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
@@ -155,7 +155,7 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#50808080"
+            app:cardBackgroundColor="#452581"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -178,7 +178,7 @@
                     android:layout_height="wrap_content"
                     android:text="Surfing"
                     android:textAlignment="center"
-                    android:fontFamily="monospace"
+                    android:fontFamily="@font/roboto"
                     android:textSize="20sp"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
@@ -198,10 +198,11 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="#50808080"
+            app:cardBackgroundColor="#2B7C09"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -221,7 +222,7 @@
                     android:layout_height="wrap_content"
                     android:text="Back"
                     android:textAlignment="center"
-                    android:fontFamily="monospace"
+                    android:fontFamily="@font/roboto"
                     android:textSize="20sp"
                     android:textColor="@color/white"
                     android:textStyle="bold" />

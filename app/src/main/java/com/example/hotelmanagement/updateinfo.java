@@ -23,7 +23,6 @@ public class updateinfo extends AppCompatActivity {
         txt = (TextView) findViewById(R.id.textView);
         txt1 = (EditText) findViewById(R.id.signupUserNameid);
         txt2 = (EditText) findViewById(R.id.signupUserNameid1);
-        txt3 = (EditText) findViewById(R.id.signupEmailid);
         txt5 = (EditText) findViewById(R.id.signupPasswordid2);
         txt6 = (EditText) findViewById(R.id.signupPasswordid);
         bt1 = (Button) findViewById(R.id.signupbuttonid);

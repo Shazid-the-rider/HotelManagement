@@ -13,18 +13,18 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="monospace"
+        android:fontFamily="@font/roboto"
         android:letterSpacing="-.02"
         android:padding="10dp"
         android:text="User Information"
         android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.148" />
+        app:layout_constraintVertical_bias="0.224" />
 
     <EditText
         android:id="@+id/signupUserNameid"
@@ -34,7 +34,7 @@
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:fontFamily="monospace"
+        android:fontFamily="@font/roboto"
         android:hint="Current username"
         android:inputType="text"
         android:paddingLeft="20dp"
@@ -62,7 +62,7 @@
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:fontFamily="monospace"
+        android:fontFamily="@font/roboto"
         android:hint="New username"
         android:inputType="text"
         android:paddingLeft="20dp"
@@ -90,7 +90,7 @@
         android:drawableLeft="@drawable/ic_baseline_security_24"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:fontFamily="monospace"
+        android:fontFamily="@font/roboto"
         android:hint="New password"
         android:inputType="textPassword"
         android:paddingLeft="20dp"
@@ -115,7 +115,7 @@
         android:drawableLeft="@drawable/ic_baseline_security_24"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:fontFamily="monospace"
+        android:fontFamily="@font/roboto"
         android:hint="Current password"
         android:inputType="textPassword"
         android:paddingLeft="20dp"
@@ -134,14 +134,15 @@
 
     <Button
         android:id="@+id/signupbuttonid"
-        android:layout_width="300dp"
+        android:layout_width="337dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/inputbackgroundshape"
-        android:fontFamily="monospace"
+        android:backgroundTint="#01756A"
+        android:fontFamily="@font/roboto"
         android:paddingLeft="5dp"
-        android:paddingTop="5dp"
+        android:paddingTop="10dp"
+        android:textAllCaps="true"
         android:paddingRight="5dp"
-        android:paddingBottom="5dp"
+        android:paddingBottom="10dp"
         android:text="Update Information"
         android:textColor="@color/white"
         android:textSize="18sp"
@@ -151,28 +152,28 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.806" />
+        app:layout_constraintVertical_bias="0.767" />
 
     <Button
         android:id="@+id/signupbuttonid1"
-        android:layout_width="300dp"
+        android:layout_width="337dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/inputbackgroundshape"
-        android:fontFamily="monospace"
+        android:backgroundTint="#4A772A"
+        android:fontFamily="@font/roboto"
         android:paddingLeft="5dp"
-        android:paddingTop="5dp"
+        android:paddingTop="10dp"
         android:paddingRight="5dp"
-        android:paddingBottom="5dp"
+        android:paddingBottom="10dp"
         android:text="Cancel Update"
+        android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.91" />
+        app:layout_constraintVertical_bias="0.852" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

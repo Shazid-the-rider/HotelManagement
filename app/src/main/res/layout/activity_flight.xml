@@ -8,8 +8,8 @@
     android:paddingRight="10dp"
     android:paddingBottom="10dp"
     android:orientation="vertical"
-    android:background="@drawable/pastry"
-    tools:context=".flight">
+    tools:context=".flight"
+    android:background="@drawable/ff">
   <ImageButton
         android:id="@+id/Imagebutton"
         android:layout_width="30dp"
@@ -20,14 +20,13 @@
 
   <ListView
 
-      android:layout_marginTop="20dp"
       android:id="@+id/list_item"
-      android:listSelector="@color/random"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
+      android:layout_marginTop="20dp"
+      android:background="#3C51A3EA"
       android:divider="#FFFFFF"
-      android:dividerHeight="2dp"
-      android:background="@drawable/custom4"
-      />
+      android:dividerHeight="1dp"
+      android:listSelector="#0A339A" />
 
 </LinearLayout>
